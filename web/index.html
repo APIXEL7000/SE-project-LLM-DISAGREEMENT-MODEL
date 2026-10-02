@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LLM Disagreement Analysis System</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--tx:#1d2433;--mu:#667085;--bd:#dfe3ec;--ac:#3b6fd8;--ok:#1f9d63;--wa:#d9534f;--sk:#c0c5d0}
+@media(prefers-color-scheme:dark){:root{--bg:#12151c;--card:#1b1f2a;--tx:#e8ebf2;--mu:#98a2b3;--bd:#2d3342;--ac:#6b9bff;--ok:#43c38a;--wa:#ef7d79;--sk:#4a5163}}
+*{box-sizing:border-box}body{margin:0;font:14px/1.5 system-ui,Segoe UI,Helvetica,sans-serif;background:var(--bg);color:var(--tx)}
+header{padding:20px 28px;border-bottom:1px solid var(--bd);background:var(--card)}h1{margin:0;font-size:20px}header p{margin:2px 0 0;color:var(--mu)}
+main{max-width:1150px;margin:0 auto;padding:20px}nav{display:flex;gap:8px;margin-bottom:16px}
+nav button{padding:8px 16px;border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:8px;cursor:pointer;font:inherit}
+nav button.on{background:var(--ac);color:#fff;border-color:var(--ac)}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:16px;margin-bottom:16px}
+h2{margin:0 0 10px;font-size:15px}.row{display:flex;flex-wrap:wrap;gap:14px;align-items:end}
+label{display:flex;flex-direction:column;font-size:12px;color:var(--mu);gap:3px}
+input,select,textarea{font:inherit;padding:7px 9px;border:1px solid var(--bd);border-radius:6px;background:var(--bg);color:var(--tx)}
+.btn{padding:9px 20px;border:0;border-radius:8px;background:var(--ac);color:#fff;font:inherit;cursor:pointer}.btn:disabled{opacity:.5}
+.note{color:var(--mu);font-size:12px}.err{color:var(--wa);white-space:pre-wrap}
+.steps{display:flex;flex-wrap:wrap;gap:6px}.st{padding:4px 10px;border-radius:14px;font-size:11px;border:1px solid var(--sk);color:var(--mu)}
+.st.done{background:var(--ok);border-color:var(--ok);color:#fff}.st.skip{border-style:dashed}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.kpi{border:1px solid var(--bd);border-radius:8px;padding:10px}.kpi b{display:block;font-size:22px}.kpi span{font-size:11px;color:var(--mu)}
+.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}svg{width:100%;height:auto}svg text{fill:var(--mu);font-size:10px}
+table{width:100%;border-collapse:collapse;font-size:12px}th,td{padding:6px 8px;border-bottom:1px solid var(--bd);text-align:left;vertical-align:top}
+th{cursor:pointer;color:var(--mu);font-weight:600;white-space:nowrap}.bar{height:8px;background:var(--bd);border-radius:4px;width:70px;display:inline-block;vertical-align:middle}
+.bar i{display:block;height:100%;border-radius:4px;background:var(--ok)}.tag{display:inline-block;padding:1px 7px;border-radius:10px;font-size:10px;margin-right:3px;color:#fff;background:var(--wa)}
+.tag.b{background:var(--ac)}.tag.g{background:var(--ok)}.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.blk{border:1.5px solid var(--ac);border-radius:6px;padding:8px 12px;font-size:12px;background:var(--bg)}.blk.ex{border-color:var(--ok)}.blk.st2{border-style:dashed}
+.blk.ds{border-color:#9673a6;border-radius:14px}.arr{color:var(--mu)}.hide{display:none}code{background:var(--bg);padding:1px 5px;border-radius:4px}
+</style></head><body>
+<header><h1>LLM Disagreement Analysis System</h1>
+<p>Disagreement and uncertainty in Large Language Models &middot; Rishabh Paul (F003) &middot; Aryan Pisal (F008) &middot; Rishi Shah (F011)</p></header>
+<main>
+<nav><button class="on" data-t="run">Run analysis</button><button data-t="models">Project models</button></nav>
+
+<section id="run">
+<div class="card"><h2>1 &middot; Input &amp; settings <span class="note">(Data Collection &rarr; Multi-Response Sampling)</span></h2>
+<div class="row">
+<label>Dataset<select id="src"><option value="sample">Built-in sample (26 items)</option><option value="upload">Upload CSV</option></select></label>
+<label id="upl" class="hide">CSV file<input type="file" id="file" accept=".csv"></label>
+<label>Backend<select id="backend"><option>mock</option><option>ollama</option><option>anthropic</option></select></label>
+<label>Models (comma-separated)<input id="models" value="model-A, model-B, model-C" size="30"></label>
+<label>Samples / prompt / model<input id="n" type="number" min="2" max="20" value="5" style="width:80px"></label>
+<label>Flag if agreement &lt;<input id="thr" type="number" step="0.05" min="0.05" max="1" value="0.75" style="width:80px"></label>
+<button class="btn" id="go">Run pipeline</button></div>
+<p class="note">The <b>mock</b> backend is a simulator, not a language model: it validates the pipeline only. Use <code>ollama</code>/<code>anthropic</code> with real model names for real results (server needs the model / API key).</p>
+<div id="err" class="err"></div></div>
+
+<div class="card"><h2>2 &middot; Pipeline progress <span class="note">(states from the State Transition Diagram)</span></h2><div class="steps" id="steps"></div></div>
+
+<div id="out" class="hide">
+<div class="card"><h2>3 &middot; Summary</h2><div class="kpis" id="kpis"></div><p class="note" id="cfg"></p></div>
+<div class="card charts"><div><h2>Agreement distribution</h2><svg id="hist" viewBox="0 0 340 200"></svg></div>
+<div><h2>LLM vs human disagreement</h2><svg id="sc" viewBox="0 0 340 200"></svg><p class="note">Red = overconfident (LLM sure, humans split).</p></div></div>
+<div class="card"><h2>4 &middot; Items <span class="note">(click a header to sort; flagged items = uncertain cases)</span></h2><div style="overflow-x:auto"><table id="tb"></table></div></div>
+</div></section>
+
+<section id="models" class="hide">
+<div class="card"><h2>Functional block diagram</h2><div class="flow">
+<div class="blk ex">Researcher</div><span class="arr">&rarr;</span><div class="blk">Data Collection (P1)</div><span class="arr">&rarr;</span><div class="blk ds">D1 / D2</div><span class="arr">&rarr;</span>
+<div class="blk">Multi-Response Sampling (P2)</div><span class="arr">&harr;</span><div class="blk ex">LLM Model Pool</div></div>
+<div class="flow" style="margin-top:8px"><div class="blk">Normalizer (3.1)</div><span class="arr">&rarr;</span><div class="blk st2">LLM-as-Judge (3.2) &middot; remaining 50%</div><span class="arr">&rarr;</span><div class="blk">Disagreement Detection (3.3)</div><span class="arr">&rarr;</span>
+<div class="blk st2">Debate &amp; Resolution &middot; remaining 50%</div><span class="arr">&rarr;</span><div class="blk ds">D3</div><span class="arr">&rarr;</span><div class="blk">Reporting (P4)</div><span class="arr">&rarr;</span><div class="blk ex">Researcher</div></div>
+<p class="note">Dashed = not implemented in the first 50%. Full editable diagrams: the three <code>.drawio</code> files (STD, Functional Block, UML).</p></div>
+<div class="card"><h2>Code structure (UML package view)</h2><table>
+<tr><th>Package</th><th>Classes / modules</th></tr>
+<tr><td>controller</td><td><code>pipeline.py</code> (state sequencing), <code>config.py</code> (Config)</td></tr>
+<tr><td>analysis modules</td><td><code>data_collection.py</code>, <code>sampling.py</code>, <code>normalization.py</code>, <code>disagreement.py</code>, <code>reporting.py</code></td></tr>
+<tr><td>llm_interface</td><td><code>llm_clients.py</code>: LLMClient &rarr; MockLLMClient, AnthropicClient, OllamaClient; LLMUnavailable</td></tr>
+<tr><td>web</td><td><code>web/server.py</code> (HTTP API), <code>web/index.html</code> (this page)</td></tr></table></div>
+<div class="card"><h2>Metrics &rarr; literature</h2><table>
+<tr><th>Metric</th><th>Idea from the literature review</th></tr>
+<tr><td>Agreement, entropy</td><td>Self-consistency &amp; multi-response sampling (Wang 2022; Nan 2025)</td></tr>
+<tr><td>JS divergence, TV</td><td>LLM answer distribution vs human distribution (Lee 2023; Ni 2025)</td></tr>
+<tr><td>Overconfident</td><td>LLMs confident on low-agreement samples (Lu 2025)</td></tr>
+<tr><td>Cross-model</td><td>Multi-model comparison (Najera 2026)</td></tr>
+<tr><td>Cluster entropy</td><td>Token-overlap <i>proxy</i> for semantic entropy (Farquhar 2024)</td></tr></table></div>
+</section></main>
+<script>
+const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const STATES=['AWAITING_INPUT','CONFIGURING','DATASET_READY','QUERYING','NORMALIZING','EVALUATING','DETECTING','RESOLVING','RESULTS_STORED','GENERATING_REPORT','REPORT_DELIVERED'];
+let rows=[],sortKey='agreement',asc=true;
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('on',x==b));
+ ['run','models'].forEach(s=>$(s).classList.toggle('hide',s!=b.dataset.t))});
+$('src').onchange=()=>$('upl').classList.toggle('hide',$('src').value!='upload');
+function steps(log){const seen=new Set(),skip=new Set();(log||[]).forEach(l=>{(l.match(/[A-Z]{2,}(_[A-Z]+)*/g)||[]).forEach(s=>{if(STATES.includes(s)){seen.add(s);if(/skipped/.test(l)&&l.includes(s))skip.add(s)}})});
+ $('steps').innerHTML=STATES.map(s=>`<span class="st ${skip.has(s)?'skip':seen.has(s)?'done':''}">${s}${skip.has(s)?' (skipped)':''}</span>`).join('')}
+steps([]);
+$('go').onclick=async()=>{$('err').textContent='';$('go').disabled=true;steps([]);
+ try{let csv=null;if($('src').value=='upload'){const f=$('file').files[0];if(!f)throw Error('Choose a CSV file first.');csv=await f.text()}
+  const r=await fetch('/api/run',{method:'POST',body:JSON.stringify({csv,backend:$('backend').value,models:$('models').value.split(','),samples:+$('n').value,threshold:+$('thr').value})});
+  const d=await r.json();steps(d.states);if(!r.ok)throw Error(d.error);show(d)}
+ catch(e){$('err').textContent=(e.message||e)}finally{$('go').disabled=false}};
+function show(d){rows=d.items;$('out').classList.remove('hide');const s=d.summary,h=s.human_comparison;
+ const k=[[s.n_items,'items'],[s.n_flagged+' ('+s.pct_flagged+'%)','flagged uncertain'],[s.mean_agreement,'mean agreement'],[s.mean_entropy_norm,'mean norm. entropy'],[s.n_cross_model_disagree,'cross-model disagreements']];
+ if(h)k.push([h.mean_js_divergence,'mean JS divergence'],[(100*h.majority_match_rate).toFixed(0)+'%','matches human majority'],[h.n_overconfident,'overconfident items'],[h.pearson_llm_vs_human_entropy==null?'n/a':h.pearson_llm_vs_human_entropy.toFixed(2),'entropy correlation (LLM vs human)']);
+ $('kpis').innerHTML=k.map(x=>`<div class="kpi"><b>${esc(x[0])}</b><span>${x[1]}</span></div>`).join('');
+ $('cfg').textContent=`backend=${d.config.backend} | models=${d.config.models.join(', ')} | ${d.config.samples} samples | threshold=${d.config.threshold}`+(d.config.backend=='mock'?' | SIMULATED RUN: validates the pipeline only':'');
+ hist(d.config.threshold);scatter();table()}
+function hist(t){const b=Array(10).fill(0);rows.forEach(r=>{if(r.agreement!=null)b[Math.min(9,Math.floor(r.agreement*10))]++});const m=Math.max(...b,1);
+ $('hist').innerHTML=b.map((v,i)=>`<rect x="${30+i*30}" y="${170-v/m*140}" width="26" height="${v/m*140}" fill="var(--ac)"/><text x="${43+i*30}" y="${166-v/m*140}" text-anchor="middle">${v||''}</text><text x="${30+i*30}" y="185">${(i/10).toFixed(1)}</text>`).join('')
+ +`<line x1="${30+t*300}" x2="${30+t*300}" y1="20" y2="170" stroke="var(--wa)" stroke-dasharray="4"/><text x="${34+t*300}" y="18">threshold</text><line x1="30" x2="330" y1="170" y2="170" stroke="var(--bd)"/>`}
+function scatter(){const p=rows.filter(r=>r.human_entropy_norm!=null);if(!p.length){$('sc').innerHTML='<text x="20" y="100">No human votes in this dataset.</text>';return}
+ $('sc').innerHTML=`<rect x="30" y="10" width="290" height="160" fill="none" stroke="var(--bd)"/><line x1="30" y1="170" x2="320" y2="10" stroke="var(--bd)" stroke-dasharray="3"/>`
+ +p.map(r=>`<circle cx="${30+r.human_entropy_norm*290}" cy="${170-r.entropy_norm*160}" r="5" fill="${r.overconfident?'var(--wa)':'var(--ac)'}" opacity=".8"><title>${esc(r.item_id)}</title></circle>`).join('')
+ +`<text x="100" y="195">human entropy (norm.)</text><text x="2" y="90" transform="rotate(-90 8 90)">LLM entropy</text>`}
+function table(){const c=[['item_id','id'],['text','text'],['majority_answer','majority'],['agreement','agreement'],['entropy_norm','entropy'],['cross_model_disagree','models'],['human_agreement','human agr.'],['js_divergence','JSD']];
+ rows.sort((a,b)=>{const x=a[sortKey],y=b[sortKey];if(x==null||y==null)return(x==null)-(y==null);return(x>y?1:x<y?-1:0)*(asc?1:-1)});
+ $('tb').innerHTML='<tr>'+c.map(x=>`<th data-k="${x[0]}">${x[1]}</th>`).join('')+'<th>flags</th></tr>'+rows.map(r=>`<tr><td>${esc(r.item_id)}</td><td>${esc((r.text||'').slice(0,80))}</td><td>${esc(r.majority_answer)}</td>
+ <td><span class="bar"><i style="width:${(r.agreement||0)*100}%;background:${r.disagreement?'var(--wa)':'var(--ok)'}"></i></span> ${r.agreement??''}</td><td>${r.entropy_norm??''}</td><td>${r.cross_model_disagree?'differ':'agree'}</td><td>${r.human_agreement??''}</td><td>${r.js_divergence??''}</td>
+ <td>${r.disagreement?'<span class="tag">uncertain</span>':''}${r.overconfident?'<span class="tag b">overconfident</span>':''}${r.cross_model_disagree?'<span class="tag b">cross-model</span>':''}</td></tr>`).join('');
+ $('tb').querySelectorAll('th[data-k]').forEach(t=>t.onclick=()=>{asc=sortKey==t.dataset.k?!asc:true;sortKey=t.dataset.k;table()})}
+</script></body></html>

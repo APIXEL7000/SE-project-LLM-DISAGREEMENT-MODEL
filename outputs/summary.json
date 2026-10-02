@@ -1,0 +1,30 @@
+{
+  "n_items": 26,
+  "n_flagged": 10,
+  "pct_flagged": 38.5,
+  "mean_agreement": 0.8231,
+  "mean_entropy_norm": 0.3509,
+  "mean_invalid_rate": 0.0,
+  "n_cross_model_disagree": 3,
+  "agreement_threshold": 0.75,
+  "human_comparison": {
+    "n_items_with_human_votes": 20,
+    "mean_js_divergence": 0.0222,
+    "mean_total_variation": 0.0867,
+    "majority_match_rate": 0.95,
+    "n_overconfident": 0,
+    "pearson_llm_vs_human_entropy": 0.8813420018051273,
+    "by_human_agreement": {
+      "high_human_agreement": {
+        "n": 17,
+        "mean_llm_agreement": 0.8549,
+        "majority_match_rate": 1.0
+      },
+      "low_human_agreement": {
+        "n": 3,
+        "mean_llm_agreement": 0.5778,
+        "majority_match_rate": 0.6667
+      }
+    }
+  }
+}

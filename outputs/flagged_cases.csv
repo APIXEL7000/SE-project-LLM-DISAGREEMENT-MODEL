@@ -1,0 +1,11 @@
+item_id,task_type,n_responses,n_valid,invalid_rate,majority_answer,agreement,n_distinct_answers,n_clusters,entropy_bits,entropy_norm,disagreement,flag_reason,model_majorities,mean_model_self_agreement,cross_model_disagree,pairwise_model_agreement,human_majority,human_agreement,human_entropy_norm,js_divergence,total_variation,majority_match,overconfident
+nli05,classification,15,15,0.0,neutral,0.5333,2,2,0.9968,0.6289,True,low_agreement,model-A=neutral; model-B=entailment; model-C=entailment,0.6667,True,0.3333,neutral,0.6,0.6126,0.0033,0.0667,True,False
+nli06,classification,15,15,0.0,contradiction,0.5333,2,2,0.9968,0.6289,True,low_agreement,model-A=contradiction; model-B=contradiction; model-C=neutral,0.6,True,0.3333,contradiction,0.5,0.8587,0.0522,0.1,True,False
+sar04,classification,15,15,0.0,not_sarcastic,0.5333,2,2,0.9968,0.9968,True,low_agreement,model-A=sarcastic; model-B=sarcastic; model-C=not_sarcastic,0.6667,True,0.3333,sarcastic,0.5,1.0,0.0008,0.0333,False,False
+nli07,classification,15,15,0.0,neutral,0.6667,2,2,0.9183,0.5794,True,low_agreement,model-A=neutral; model-B=neutral; model-C=neutral,0.6667,False,1.0,neutral,0.5,0.8587,0.0608,0.1667,True,False
+nli14,classification,15,15,0.0,neutral,0.6667,3,3,1.1589,0.7312,True,low_agreement,model-A=neutral; model-B=neutral; model-C=neutral,0.6667,False,1.0,neutral,0.6,0.6126,0.0443,0.1333,True,False
+nli13,classification,15,15,0.0,neutral,0.6667,2,2,0.9183,0.5794,True,low_agreement,model-A=neutral; model-B=neutral; model-C=neutral,0.6667,False,1.0,neutral,0.6,0.6126,0.0035,0.0667,True,False
+sar06,classification,15,15,0.0,not_sarcastic,0.6667,2,2,0.9183,0.9183,True,low_agreement,model-A=not_sarcastic; model-B=not_sarcastic; model-C=not_sarcastic,0.6667,False,1.0,not_sarcastic,0.6,0.971,0.0035,0.0667,True,False
+nli09,classification,15,15,0.0,neutral,0.7333,2,2,0.8366,0.5279,True,low_agreement,model-A=neutral; model-B=neutral; model-C=neutral,0.7333,False,1.0,neutral,0.7,0.556,0.001,0.0333,True,False
+qa02,open,15,15,0.0,dioxide,0.7333,4,3,1.1033,0.2824,True,low_agreement,model-A=carbon dioxide; model-B=carbon dioxide; model-C=dioxide,0.7333,False,1.0,,,,,,,
+qa05,open,15,15,0.0,6,0.7333,4,4,1.2366,0.3165,True,low_agreement,model-A=6; model-B=6; model-C=6,0.7333,False,1.0,,,,,,,

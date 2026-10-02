@@ -1,0 +1,391 @@
+item_id,model,sample_idx,raw_text,answer,valid
+nli01,model-A,0,entailment.,entailment,True
+nli01,model-A,1,ENTAILMENT,entailment,True
+nli01,model-A,2,entailment.,entailment,True
+nli01,model-A,3,The answer is entailment,entailment,True
+nli01,model-A,4,entailment,entailment,True
+nli01,model-B,0,I think entailment,entailment,True
+nli01,model-B,1,I think entailment,entailment,True
+nli01,model-B,2,entailment,entailment,True
+nli01,model-B,3,ENTAILMENT,entailment,True
+nli01,model-B,4,entailment,entailment,True
+nli01,model-C,0,entailment,entailment,True
+nli01,model-C,1,entailment,entailment,True
+nli01,model-C,2,ENTAILMENT,entailment,True
+nli01,model-C,3,I think entailment,entailment,True
+nli01,model-C,4,The answer is entailment,entailment,True
+nli02,model-A,0,I think neutral,neutral,True
+nli02,model-A,1,neutral,neutral,True
+nli02,model-A,2,I think neutral,neutral,True
+nli02,model-A,3,The answer is neutral,neutral,True
+nli02,model-A,4,neutral.,neutral,True
+nli02,model-B,0,neutral,neutral,True
+nli02,model-B,1,The answer is neutral,neutral,True
+nli02,model-B,2,neutral.,neutral,True
+nli02,model-B,3,The answer is neutral,neutral,True
+nli02,model-B,4,I think neutral,neutral,True
+nli02,model-C,0,I think neutral,neutral,True
+nli02,model-C,1,I think neutral,neutral,True
+nli02,model-C,2,neutral.,neutral,True
+nli02,model-C,3,neutral.,neutral,True
+nli02,model-C,4,I think entailment,entailment,True
+nli03,model-A,0,CONTRADICTION,contradiction,True
+nli03,model-A,1,CONTRADICTION,contradiction,True
+nli03,model-A,2,contradiction.,contradiction,True
+nli03,model-A,3,contradiction,contradiction,True
+nli03,model-A,4,contradiction.,contradiction,True
+nli03,model-B,0,contradiction,contradiction,True
+nli03,model-B,1,contradiction.,contradiction,True
+nli03,model-B,2,neutral.,neutral,True
+nli03,model-B,3,CONTRADICTION,contradiction,True
+nli03,model-B,4,contradiction,contradiction,True
+nli03,model-C,0,I think contradiction,contradiction,True
+nli03,model-C,1,The answer is contradiction,contradiction,True
+nli03,model-C,2,CONTRADICTION,contradiction,True
+nli03,model-C,3,I think contradiction,contradiction,True
+nli03,model-C,4,contradiction.,contradiction,True
+nli04,model-A,0,entailment.,entailment,True
+nli04,model-A,1,The answer is entailment,entailment,True
+nli04,model-A,2,entailment.,entailment,True
+nli04,model-A,3,neutral,neutral,True
+nli04,model-A,4,I think entailment,entailment,True
+nli04,model-B,0,The answer is entailment,entailment,True
+nli04,model-B,1,entailment.,entailment,True
+nli04,model-B,2,I think entailment,entailment,True
+nli04,model-B,3,The answer is entailment,entailment,True
+nli04,model-B,4,neutral.,neutral,True
+nli04,model-C,0,entailment.,entailment,True
+nli04,model-C,1,ENTAILMENT,entailment,True
+nli04,model-C,2,neutral.,neutral,True
+nli04,model-C,3,entailment.,entailment,True
+nli04,model-C,4,I think entailment,entailment,True
+nli05,model-A,0,The answer is neutral,neutral,True
+nli05,model-A,1,I think entailment,entailment,True
+nli05,model-A,2,neutral.,neutral,True
+nli05,model-A,3,NEUTRAL,neutral,True
+nli05,model-A,4,I think neutral,neutral,True
+nli05,model-B,0,I think neutral,neutral,True
+nli05,model-B,1,The answer is entailment,entailment,True
+nli05,model-B,2,I think neutral,neutral,True
+nli05,model-B,3,entailment,entailment,True
+nli05,model-B,4,The answer is entailment,entailment,True
+nli05,model-C,0,I think entailment,entailment,True
+nli05,model-C,1,I think neutral,neutral,True
+nli05,model-C,2,ENTAILMENT,entailment,True
+nli05,model-C,3,I think entailment,entailment,True
+nli05,model-C,4,neutral.,neutral,True
+nli06,model-A,0,The answer is neutral,neutral,True
+nli06,model-A,1,The answer is contradiction,contradiction,True
+nli06,model-A,2,The answer is contradiction,contradiction,True
+nli06,model-A,3,The answer is contradiction,contradiction,True
+nli06,model-A,4,I think neutral,neutral,True
+nli06,model-B,0,contradiction,contradiction,True
+nli06,model-B,1,NEUTRAL,neutral,True
+nli06,model-B,2,The answer is contradiction,contradiction,True
+nli06,model-B,3,NEUTRAL,neutral,True
+nli06,model-B,4,I think contradiction,contradiction,True
+nli06,model-C,0,The answer is neutral,neutral,True
+nli06,model-C,1,The answer is contradiction,contradiction,True
+nli06,model-C,2,The answer is contradiction,contradiction,True
+nli06,model-C,3,The answer is neutral,neutral,True
+nli06,model-C,4,neutral.,neutral,True
+nli07,model-A,0,neutral,neutral,True
+nli07,model-A,1,The answer is neutral,neutral,True
+nli07,model-A,2,The answer is neutral,neutral,True
+nli07,model-A,3,entailment.,entailment,True
+nli07,model-A,4,The answer is neutral,neutral,True
+nli07,model-B,0,neutral,neutral,True
+nli07,model-B,1,I think entailment,entailment,True
+nli07,model-B,2,The answer is neutral,neutral,True
+nli07,model-B,3,The answer is neutral,neutral,True
+nli07,model-B,4,I think entailment,entailment,True
+nli07,model-C,0,neutral,neutral,True
+nli07,model-C,1,entailment,entailment,True
+nli07,model-C,2,neutral,neutral,True
+nli07,model-C,3,The answer is neutral,neutral,True
+nli07,model-C,4,The answer is entailment,entailment,True
+nli08,model-A,0,contradiction,contradiction,True
+nli08,model-A,1,contradiction.,contradiction,True
+nli08,model-A,2,I think contradiction,contradiction,True
+nli08,model-A,3,I think contradiction,contradiction,True
+nli08,model-A,4,The answer is contradiction,contradiction,True
+nli08,model-B,0,contradiction,contradiction,True
+nli08,model-B,1,CONTRADICTION,contradiction,True
+nli08,model-B,2,I think contradiction,contradiction,True
+nli08,model-B,3,contradiction,contradiction,True
+nli08,model-B,4,CONTRADICTION,contradiction,True
+nli08,model-C,0,CONTRADICTION,contradiction,True
+nli08,model-C,1,The answer is contradiction,contradiction,True
+nli08,model-C,2,contradiction,contradiction,True
+nli08,model-C,3,I think contradiction,contradiction,True
+nli08,model-C,4,The answer is neutral,neutral,True
+nli09,model-A,0,The answer is neutral,neutral,True
+nli09,model-A,1,neutral,neutral,True
+nli09,model-A,2,neutral.,neutral,True
+nli09,model-A,3,neutral,neutral,True
+nli09,model-A,4,neutral.,neutral,True
+nli09,model-B,0,neutral.,neutral,True
+nli09,model-B,1,The answer is neutral,neutral,True
+nli09,model-B,2,entailment.,entailment,True
+nli09,model-B,3,entailment,entailment,True
+nli09,model-B,4,I think neutral,neutral,True
+nli09,model-C,0,NEUTRAL,neutral,True
+nli09,model-C,1,I think neutral,neutral,True
+nli09,model-C,2,entailment.,entailment,True
+nli09,model-C,3,entailment.,entailment,True
+nli09,model-C,4,The answer is neutral,neutral,True
+nli10,model-A,0,entailment.,entailment,True
+nli10,model-A,1,I think entailment,entailment,True
+nli10,model-A,2,The answer is entailment,entailment,True
+nli10,model-A,3,I think entailment,entailment,True
+nli10,model-A,4,ENTAILMENT,entailment,True
+nli10,model-B,0,entailment,entailment,True
+nli10,model-B,1,entailment,entailment,True
+nli10,model-B,2,I think entailment,entailment,True
+nli10,model-B,3,ENTAILMENT,entailment,True
+nli10,model-B,4,entailment.,entailment,True
+nli10,model-C,0,I think entailment,entailment,True
+nli10,model-C,1,I think entailment,entailment,True
+nli10,model-C,2,The answer is entailment,entailment,True
+nli10,model-C,3,entailment,entailment,True
+nli10,model-C,4,entailment,entailment,True
+nli11,model-A,0,I think neutral,neutral,True
+nli11,model-A,1,I think neutral,neutral,True
+nli11,model-A,2,I think neutral,neutral,True
+nli11,model-A,3,I think neutral,neutral,True
+nli11,model-A,4,The answer is neutral,neutral,True
+nli11,model-B,0,neutral,neutral,True
+nli11,model-B,1,neutral,neutral,True
+nli11,model-B,2,The answer is contradiction,contradiction,True
+nli11,model-B,3,The answer is neutral,neutral,True
+nli11,model-B,4,The answer is neutral,neutral,True
+nli11,model-C,0,I think neutral,neutral,True
+nli11,model-C,1,neutral.,neutral,True
+nli11,model-C,2,neutral.,neutral,True
+nli11,model-C,3,I think entailment,entailment,True
+nli11,model-C,4,neutral.,neutral,True
+nli12,model-A,0,contradiction.,contradiction,True
+nli12,model-A,1,I think contradiction,contradiction,True
+nli12,model-A,2,contradiction.,contradiction,True
+nli12,model-A,3,contradiction.,contradiction,True
+nli12,model-A,4,I think contradiction,contradiction,True
+nli12,model-B,0,I think contradiction,contradiction,True
+nli12,model-B,1,contradiction,contradiction,True
+nli12,model-B,2,contradiction.,contradiction,True
+nli12,model-B,3,I think contradiction,contradiction,True
+nli12,model-B,4,I think contradiction,contradiction,True
+nli12,model-C,0,contradiction.,contradiction,True
+nli12,model-C,1,I think contradiction,contradiction,True
+nli12,model-C,2,The answer is contradiction,contradiction,True
+nli12,model-C,3,contradiction.,contradiction,True
+nli12,model-C,4,contradiction,contradiction,True
+nli13,model-A,0,neutral.,neutral,True
+nli13,model-A,1,neutral.,neutral,True
+nli13,model-A,2,neutral.,neutral,True
+nli13,model-A,3,NEUTRAL,neutral,True
+nli13,model-A,4,I think entailment,entailment,True
+nli13,model-B,0,ENTAILMENT,entailment,True
+nli13,model-B,1,I think neutral,neutral,True
+nli13,model-B,2,The answer is entailment,entailment,True
+nli13,model-B,3,NEUTRAL,neutral,True
+nli13,model-B,4,The answer is neutral,neutral,True
+nli13,model-C,0,neutral,neutral,True
+nli13,model-C,1,entailment.,entailment,True
+nli13,model-C,2,The answer is entailment,entailment,True
+nli13,model-C,3,neutral,neutral,True
+nli13,model-C,4,I think neutral,neutral,True
+nli14,model-A,0,NEUTRAL,neutral,True
+nli14,model-A,1,neutral,neutral,True
+nli14,model-A,2,neutral,neutral,True
+nli14,model-A,3,neutral,neutral,True
+nli14,model-A,4,neutral.,neutral,True
+nli14,model-B,0,I think neutral,neutral,True
+nli14,model-B,1,NEUTRAL,neutral,True
+nli14,model-B,2,The answer is entailment,entailment,True
+nli14,model-B,3,entailment.,entailment,True
+nli14,model-B,4,neutral,neutral,True
+nli14,model-C,0,neutral.,neutral,True
+nli14,model-C,1,The answer is entailment,entailment,True
+nli14,model-C,2,The answer is contradiction,contradiction,True
+nli14,model-C,3,The answer is entailment,entailment,True
+nli14,model-C,4,NEUTRAL,neutral,True
+sar01,model-A,0,sarcastic,sarcastic,True
+sar01,model-A,1,The answer is sarcastic,sarcastic,True
+sar01,model-A,2,SARCASTIC,sarcastic,True
+sar01,model-A,3,I think sarcastic,sarcastic,True
+sar01,model-A,4,SARCASTIC,sarcastic,True
+sar01,model-B,0,sarcastic,sarcastic,True
+sar01,model-B,1,I think sarcastic,sarcastic,True
+sar01,model-B,2,SARCASTIC,sarcastic,True
+sar01,model-B,3,SARCASTIC,sarcastic,True
+sar01,model-B,4,sarcastic,sarcastic,True
+sar01,model-C,0,The answer is sarcastic,sarcastic,True
+sar01,model-C,1,The answer is sarcastic,sarcastic,True
+sar01,model-C,2,I think sarcastic,sarcastic,True
+sar01,model-C,3,The answer is sarcastic,sarcastic,True
+sar01,model-C,4,sarcastic.,sarcastic,True
+sar02,model-A,0,I think not_sarcastic,not_sarcastic,True
+sar02,model-A,1,not_sarcastic.,not_sarcastic,True
+sar02,model-A,2,NOT_SARCASTIC,not_sarcastic,True
+sar02,model-A,3,not_sarcastic,not_sarcastic,True
+sar02,model-A,4,not_sarcastic,not_sarcastic,True
+sar02,model-B,0,The answer is not_sarcastic,not_sarcastic,True
+sar02,model-B,1,I think not_sarcastic,not_sarcastic,True
+sar02,model-B,2,not_sarcastic.,not_sarcastic,True
+sar02,model-B,3,not_sarcastic,not_sarcastic,True
+sar02,model-B,4,NOT_SARCASTIC,not_sarcastic,True
+sar02,model-C,0,not_sarcastic,not_sarcastic,True
+sar02,model-C,1,I think not_sarcastic,not_sarcastic,True
+sar02,model-C,2,sarcastic,sarcastic,True
+sar02,model-C,3,not_sarcastic.,not_sarcastic,True
+sar02,model-C,4,I think not_sarcastic,not_sarcastic,True
+sar03,model-A,0,The answer is sarcastic,sarcastic,True
+sar03,model-A,1,I think sarcastic,sarcastic,True
+sar03,model-A,2,SARCASTIC,sarcastic,True
+sar03,model-A,3,The answer is sarcastic,sarcastic,True
+sar03,model-A,4,I think sarcastic,sarcastic,True
+sar03,model-B,0,I think sarcastic,sarcastic,True
+sar03,model-B,1,sarcastic.,sarcastic,True
+sar03,model-B,2,I think sarcastic,sarcastic,True
+sar03,model-B,3,SARCASTIC,sarcastic,True
+sar03,model-B,4,sarcastic,sarcastic,True
+sar03,model-C,0,sarcastic,sarcastic,True
+sar03,model-C,1,SARCASTIC,sarcastic,True
+sar03,model-C,2,The answer is sarcastic,sarcastic,True
+sar03,model-C,3,I think sarcastic,sarcastic,True
+sar03,model-C,4,SARCASTIC,sarcastic,True
+sar04,model-A,0,I think sarcastic,sarcastic,True
+sar04,model-A,1,I think sarcastic,sarcastic,True
+sar04,model-A,2,NOT_SARCASTIC,not_sarcastic,True
+sar04,model-A,3,not_sarcastic,not_sarcastic,True
+sar04,model-A,4,sarcastic.,sarcastic,True
+sar04,model-B,0,sarcastic.,sarcastic,True
+sar04,model-B,1,not_sarcastic,not_sarcastic,True
+sar04,model-B,2,sarcastic.,sarcastic,True
+sar04,model-B,3,I think sarcastic,sarcastic,True
+sar04,model-B,4,NOT_SARCASTIC,not_sarcastic,True
+sar04,model-C,0,The answer is not_sarcastic,not_sarcastic,True
+sar04,model-C,1,I think sarcastic,sarcastic,True
+sar04,model-C,2,not_sarcastic,not_sarcastic,True
+sar04,model-C,3,not_sarcastic,not_sarcastic,True
+sar04,model-C,4,I think not_sarcastic,not_sarcastic,True
+sar05,model-A,0,The answer is sarcastic,sarcastic,True
+sar05,model-A,1,sarcastic,sarcastic,True
+sar05,model-A,2,I think sarcastic,sarcastic,True
+sar05,model-A,3,SARCASTIC,sarcastic,True
+sar05,model-A,4,I think sarcastic,sarcastic,True
+sar05,model-B,0,The answer is not_sarcastic,not_sarcastic,True
+sar05,model-B,1,I think sarcastic,sarcastic,True
+sar05,model-B,2,SARCASTIC,sarcastic,True
+sar05,model-B,3,I think sarcastic,sarcastic,True
+sar05,model-B,4,SARCASTIC,sarcastic,True
+sar05,model-C,0,I think sarcastic,sarcastic,True
+sar05,model-C,1,SARCASTIC,sarcastic,True
+sar05,model-C,2,not_sarcastic,not_sarcastic,True
+sar05,model-C,3,sarcastic.,sarcastic,True
+sar05,model-C,4,SARCASTIC,sarcastic,True
+sar06,model-A,0,NOT_SARCASTIC,not_sarcastic,True
+sar06,model-A,1,The answer is sarcastic,sarcastic,True
+sar06,model-A,2,not_sarcastic,not_sarcastic,True
+sar06,model-A,3,The answer is not_sarcastic,not_sarcastic,True
+sar06,model-A,4,The answer is not_sarcastic,not_sarcastic,True
+sar06,model-B,0,NOT_SARCASTIC,not_sarcastic,True
+sar06,model-B,1,I think not_sarcastic,not_sarcastic,True
+sar06,model-B,2,not_sarcastic.,not_sarcastic,True
+sar06,model-B,3,SARCASTIC,sarcastic,True
+sar06,model-B,4,The answer is sarcastic,sarcastic,True
+sar06,model-C,0,The answer is not_sarcastic,not_sarcastic,True
+sar06,model-C,1,The answer is sarcastic,sarcastic,True
+sar06,model-C,2,I think not_sarcastic,not_sarcastic,True
+sar06,model-C,3,NOT_SARCASTIC,not_sarcastic,True
+sar06,model-C,4,sarcastic.,sarcastic,True
+qa01,model-A,0,Canberra.,canberra,True
+qa01,model-A,1,The answer is Canberra,canberra,True
+qa01,model-A,2,The answer is Canberra,canberra,True
+qa01,model-A,3,CANBERRA,canberra,True
+qa01,model-A,4,CANBERRA,canberra,True
+qa01,model-B,0,Canberra,canberra,True
+qa01,model-B,1,Canberra,canberra,True
+qa01,model-B,2,Canberra,canberra,True
+qa01,model-B,3,The answer is Canberra,canberra,True
+qa01,model-B,4,The answer is Canberra,canberra,True
+qa01,model-C,0,I think Canberra,canberra,True
+qa01,model-C,1,Canberra,canberra,True
+qa01,model-C,2,Canberra,canberra,True
+qa01,model-C,3,Canberra.,canberra,True
+qa01,model-C,4,Canberra.,canberra,True
+qa02,model-A,0,The answer is carbon dioxide,carbon dioxide,True
+qa02,model-A,1,I think carbon dioxide,carbon dioxide,True
+qa02,model-A,2,WILLIAM SHAKESPEARE,william shakespeare,True
+qa02,model-A,3,dioxide,dioxide,True
+qa02,model-A,4,dioxide.,dioxide,True
+qa02,model-B,0,CARBON DIOXIDE,carbon dioxide,True
+qa02,model-B,1,I think Canberra,canberra,True
+qa02,model-B,2,carbon dioxide,carbon dioxide,True
+qa02,model-B,3,dioxide,dioxide,True
+qa02,model-B,4,I think dioxide,dioxide,True
+qa02,model-C,0,Canberra,canberra,True
+qa02,model-C,1,The answer is William Shakespeare,william shakespeare,True
+qa02,model-C,2,dioxide,dioxide,True
+qa02,model-C,3,dioxide,dioxide,True
+qa02,model-C,4,dioxide,dioxide,True
+qa03,model-A,0,William Shakespeare,william shakespeare,True
+qa03,model-A,1,I think William Shakespeare,william shakespeare,True
+qa03,model-A,2,The answer is Shakespeare,shakespeare,True
+qa03,model-A,3,PACIFIC OCEAN,pacific ocean,True
+qa03,model-A,4,Shakespeare.,shakespeare,True
+qa03,model-B,0,Shakespeare,shakespeare,True
+qa03,model-B,1,Shakespeare,shakespeare,True
+qa03,model-B,2,WILLIAM SHAKESPEARE,william shakespeare,True
+qa03,model-B,3,WILLIAM SHAKESPEARE,william shakespeare,True
+qa03,model-B,4,WILLIAM SHAKESPEARE,william shakespeare,True
+qa03,model-C,0,AU,au,True
+qa03,model-C,1,SHAKESPEARE,shakespeare,True
+qa03,model-C,2,The answer is Shakespeare,shakespeare,True
+qa03,model-C,3,I think William Shakespeare,william shakespeare,True
+qa03,model-C,4,The answer is William Shakespeare,william shakespeare,True
+qa04,model-A,0,I think Pacific Ocean,pacific ocean,True
+qa04,model-A,1,Pacific Ocean,pacific ocean,True
+qa04,model-A,2,I think Pacific Ocean,pacific ocean,True
+qa04,model-A,3,The answer is Pacific Ocean,pacific ocean,True
+qa04,model-A,4,Canberra.,canberra,True
+qa04,model-B,0,PACIFIC OCEAN,pacific ocean,True
+qa04,model-B,1,The answer is Pacific Ocean,pacific ocean,True
+qa04,model-B,2,I think Pacific Ocean,pacific ocean,True
+qa04,model-B,3,Pacific Ocean.,pacific ocean,True
+qa04,model-B,4,carbon dioxide.,carbon dioxide,True
+qa04,model-C,0,I think Pacific Ocean,pacific ocean,True
+qa04,model-C,1,PACIFIC OCEAN,pacific ocean,True
+qa04,model-C,2,Pacific Ocean,pacific ocean,True
+qa04,model-C,3,Pacific Ocean,pacific ocean,True
+qa04,model-C,4,Pacific Ocean.,pacific ocean,True
+qa05,model-A,0,The answer is 6,6,True
+qa05,model-A,1,I think Pacific Ocean,pacific ocean,True
+qa05,model-A,2,6,6,True
+qa05,model-A,3,6,6,True
+qa05,model-A,4,I think 6,6,True
+qa05,model-B,0,Au,au,True
+qa05,model-B,1,The answer is 6,6,True
+qa05,model-B,2,6,6,True
+qa05,model-B,3,Au.,au,True
+qa05,model-B,4,6,6,True
+qa05,model-C,0,6,6,True
+qa05,model-C,1,I think 6,6,True
+qa05,model-C,2,I think carbon dioxide,carbon dioxide,True
+qa05,model-C,3,I think 6,6,True
+qa05,model-C,4,6,6,True
+qa06,model-A,0,AU,au,True
+qa06,model-A,1,Au,au,True
+qa06,model-A,2,Au,au,True
+qa06,model-A,3,I think Au,au,True
+qa06,model-A,4,I think Au,au,True
+qa06,model-B,0,AU,au,True
+qa06,model-B,1,AU,au,True
+qa06,model-B,2,AU,au,True
+qa06,model-B,3,The answer is 6,6,True
+qa06,model-B,4,I think Au,au,True
+qa06,model-C,0,AU,au,True
+qa06,model-C,1,Au,au,True
+qa06,model-C,2,AU,au,True
+qa06,model-C,3,I think Au,au,True
+qa06,model-C,4,The answer is Au,au,True

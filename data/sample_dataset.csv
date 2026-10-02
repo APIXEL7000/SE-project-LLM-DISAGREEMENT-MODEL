@@ -1,0 +1,27 @@
+id,task_type,instruction,text,options,human_votes,reference
+nli01,classification,"Does the premise entail the hypothesis?","Premise: A man is playing a guitar on stage. Hypothesis: A man is performing music.",entailment|neutral|contradiction,entailment:10,
+nli02,classification,"Does the premise entail the hypothesis?","Premise: A dog runs through a field. Hypothesis: The dog is chasing a ball.",entailment|neutral|contradiction,entailment:2|neutral:8,
+nli03,classification,"Does the premise entail the hypothesis?","Premise: Two women are shaking hands. Hypothesis: The women are enemies.",entailment|neutral|contradiction,neutral:1|contradiction:9,
+nli04,classification,"Does the premise entail the hypothesis?","Premise: The company reported higher profits this quarter. Hypothesis: The company had a good quarter.",entailment|neutral|contradiction,entailment:6|neutral:4,
+nli05,classification,"Does the premise entail the hypothesis?","Premise: A child is holding a red balloon. Hypothesis: The child is at a birthday party.",entailment|neutral|contradiction,entailment:4|neutral:6,
+nli06,classification,"Does the premise entail the hypothesis?","Premise: Most students passed the exam. Hypothesis: Every student passed the exam.",entailment|neutral|contradiction,entailment:1|neutral:4|contradiction:5,
+nli07,classification,"Does the premise entail the hypothesis?","Premise: The meeting was moved to Friday. Hypothesis: The meeting will not happen on Thursday.",entailment|neutral|contradiction,entailment:4|neutral:5|contradiction:1,
+nli08,classification,"Does the premise entail the hypothesis?","Premise: She almost finished the marathon. Hypothesis: She finished the marathon.",entailment|neutral|contradiction,neutral:3|contradiction:7,
+nli09,classification,"Does the premise entail the hypothesis?","Premise: A man in a suit is reading a newspaper on a train. Hypothesis: The man is commuting to work.",entailment|neutral|contradiction,entailment:3|neutral:7,
+nli10,classification,"Does the premise entail the hypothesis?","Premise: The restaurant is open from 9 to 5. Hypothesis: The restaurant is open at noon.",entailment|neutral|contradiction,entailment:10,
+nli11,classification,"Does the premise entail the hypothesis?","Premise: He said he might come to the party. Hypothesis: He will come to the party.",entailment|neutral|contradiction,entailment:1|neutral:6|contradiction:3,
+nli12,classification,"Does the premise entail the hypothesis?","Premise: A group of children are playing soccer in the rain. Hypothesis: The children are indoors.",entailment|neutral|contradiction,contradiction:10,
+nli13,classification,"Does the premise entail the hypothesis?","Premise: The study found a link between coffee and longer life. Hypothesis: Drinking coffee makes people live longer.",entailment|neutral|contradiction,entailment:4|neutral:6,
+nli14,classification,"Does the premise entail the hypothesis?","Premise: Nobody was injured in the accident. Hypothesis: The accident was minor.",entailment|neutral|contradiction,entailment:4|neutral:6,
+sar01,classification,"Is the speaker being sarcastic?","Oh great, another Monday morning meeting. Just what I needed.",sarcastic|not_sarcastic,sarcastic:9|not_sarcastic:1,
+sar02,classification,"Is the speaker being sarcastic?","Thanks for helping me move, I really appreciate it.",sarcastic|not_sarcastic,sarcastic:1|not_sarcastic:9,
+sar03,classification,"Is the speaker being sarcastic?","Wow, you're so punctual. Only forty minutes late this time.",sarcastic|not_sarcastic,sarcastic:10,
+sar04,classification,"Is the speaker being sarcastic?","Nice weather we're having.",sarcastic|not_sarcastic,sarcastic:5|not_sarcastic:5,
+sar05,classification,"Is the speaker being sarcastic?","I love how the printer only breaks when I'm in a hurry.",sarcastic|not_sarcastic,sarcastic:8|not_sarcastic:2,
+sar06,classification,"Is the speaker being sarcastic?","That was a really clever idea.",sarcastic|not_sarcastic,sarcastic:4|not_sarcastic:6,
+qa01,open,"Answer the question.","What is the capital of Australia?",,,Canberra
+qa02,open,"Answer the question.","Which gas do plants absorb from the air for photosynthesis?",,,carbon dioxide
+qa03,open,"Answer the question.","Who wrote the play Hamlet?",,,William Shakespeare
+qa04,open,"Answer the question.","What is the largest ocean on Earth?",,,Pacific Ocean
+qa05,open,"Answer the question.","How many sides does a hexagon have?",,,6
+qa06,open,"Answer the question.","What is the chemical symbol for gold?",,,Au

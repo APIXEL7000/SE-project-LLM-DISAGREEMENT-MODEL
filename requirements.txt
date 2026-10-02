@@ -1,0 +1,8 @@
+# Core (required)
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+
+# Optional: only if you run --backend anthropic
+# anthropic>=0.40
+# (--backend ollama uses only the Python standard library)

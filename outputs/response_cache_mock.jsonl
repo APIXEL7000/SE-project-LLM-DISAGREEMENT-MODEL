@@ -1,0 +1,390 @@
+{"key": "14098ed43bf8e0f18f218f88a21de62547a6ff415721987c474c74431b3a0cb6", "item_id": "nli01", "model": "model-A", "sample_idx": 0, "raw_text": "entailment."}
+{"key": "00a366824ee080d67611580319c751f5867fb470f083895e2ea12723f5cf10de", "item_id": "nli01", "model": "model-A", "sample_idx": 1, "raw_text": "ENTAILMENT"}
+{"key": "9fd338fcb9be10fc7e5404f67c7a3479b66f30244e6e4c76d5f20a7405ffcd05", "item_id": "nli01", "model": "model-A", "sample_idx": 2, "raw_text": "entailment."}
+{"key": "4f992b9f9d28cc5592debf51a56447c3ff8c46bd52a27613c544b3172383b1e0", "item_id": "nli01", "model": "model-A", "sample_idx": 3, "raw_text": "The answer is entailment"}
+{"key": "3beb120982a12a181beda66cee5bcbfcfc15c1bf9029fd7f8d4f2b83b39e3416", "item_id": "nli01", "model": "model-A", "sample_idx": 4, "raw_text": "entailment"}
+{"key": "54cad551214116be5c98a541bece8b1624b57a229cc1b564f7a90e59d4da5879", "item_id": "nli01", "model": "model-B", "sample_idx": 0, "raw_text": "I think entailment"}
+{"key": "bc5708e2d5cc83ccc8e8b95cf077d3dc5dc028d81c4ca3b484020ef265691200", "item_id": "nli01", "model": "model-B", "sample_idx": 1, "raw_text": "I think entailment"}
+{"key": "1931b13dc3c661a9dd666e083968a3fad307388133d65286c86d8acec9740eab", "item_id": "nli01", "model": "model-B", "sample_idx": 2, "raw_text": "entailment"}
+{"key": "94298bbb9e01a7a2fbe11c6db2d2d151404841db06a4134085ddb720bdd7b528", "item_id": "nli01", "model": "model-B", "sample_idx": 3, "raw_text": "ENTAILMENT"}
+{"key": "9fffb94a7bebe4fa363e4542cec90eefeee619f077961a7d60f0fa432b5a30ae", "item_id": "nli01", "model": "model-B", "sample_idx": 4, "raw_text": "entailment"}
+{"key": "8cf4b48e9d9bb5e7e7493eba34815f0c403a083f33f6575b5f3086db180e0580", "item_id": "nli01", "model": "model-C", "sample_idx": 0, "raw_text": "entailment"}
+{"key": "3c0ca84fe465efdc3906a845eb54d8ff97f68f0a897564689168d572556cdb96", "item_id": "nli01", "model": "model-C", "sample_idx": 1, "raw_text": "entailment"}
+{"key": "29770663634f064dca528c9baf3d29106d3d55bb2442d7eb8d900d41294ab88d", "item_id": "nli01", "model": "model-C", "sample_idx": 2, "raw_text": "ENTAILMENT"}
+{"key": "b3053a0b2c26ea746fa40cab5c623404254907c1d206ac351eb1051d55fbc1d7", "item_id": "nli01", "model": "model-C", "sample_idx": 3, "raw_text": "I think entailment"}
+{"key": "490d6214abb86f2f89e6bae8c583229c6b41df30dbd3c7ba2a6521553b787162", "item_id": "nli01", "model": "model-C", "sample_idx": 4, "raw_text": "The answer is entailment"}
+{"key": "e009d2f2d88fc246aa5d3b5a63388f10b95bad564af3971e0ae39f4b9373485a", "item_id": "nli02", "model": "model-A", "sample_idx": 0, "raw_text": "I think neutral"}
+{"key": "da9bb62cb8fdc8965659246a0dea35f2d5cee09ac2b59d3d60fb7f1342408d9d", "item_id": "nli02", "model": "model-A", "sample_idx": 1, "raw_text": "neutral"}
+{"key": "03dca6a98210ae7f638b9754fcbf745476cd535ee63550e8f863ca4538727e71", "item_id": "nli02", "model": "model-A", "sample_idx": 2, "raw_text": "I think neutral"}
+{"key": "344045f040b4e8e08e3cbb9edf936d4ddccc1917d36e26eda82db22d8a1bd6d1", "item_id": "nli02", "model": "model-A", "sample_idx": 3, "raw_text": "The answer is neutral"}
+{"key": "0e972963e4f22f1e3726ab4bbeb30026f0cf36c786032a42afb557bb1ff1048b", "item_id": "nli02", "model": "model-A", "sample_idx": 4, "raw_text": "neutral."}
+{"key": "73339197116ca6306698a4872142580aeae0b7861ecd0a8662d85dd8b2bce6c3", "item_id": "nli02", "model": "model-B", "sample_idx": 0, "raw_text": "neutral"}
+{"key": "0cef06c8a759a23c046e6988c9f5b7ba37772f554b9f7b7ec9722b806fea71de", "item_id": "nli02", "model": "model-B", "sample_idx": 1, "raw_text": "The answer is neutral"}
+{"key": "7d45c7843b723b0d4a40d8fcdae4dc940e62b1ccab9f81960d268e4125f6487e", "item_id": "nli02", "model": "model-B", "sample_idx": 2, "raw_text": "neutral."}
+{"key": "9a8d15b632780b2de4fa3bb34ad66d2419f15e88d55649981b32d8f240f43432", "item_id": "nli02", "model": "model-B", "sample_idx": 3, "raw_text": "The answer is neutral"}
+{"key": "04009da65234cf03b3f9bc1c62dc21f529036adca267cc65757b988f659d4020", "item_id": "nli02", "model": "model-B", "sample_idx": 4, "raw_text": "I think neutral"}
+{"key": "a6f421902ead4b6a7d5d4fa6c2063b70796d84ab2d8efb8d96e0743e6c0ad8c7", "item_id": "nli02", "model": "model-C", "sample_idx": 0, "raw_text": "I think neutral"}
+{"key": "79f2fa8a11cf422b7375c7389cd6cccd6299b367d240d7617f58a5e2e5b81408", "item_id": "nli02", "model": "model-C", "sample_idx": 1, "raw_text": "I think neutral"}
+{"key": "2a1bd83e42baab791f5d780c6f8d63eaddf90098be34a0fae280262ce05df4f2", "item_id": "nli02", "model": "model-C", "sample_idx": 2, "raw_text": "neutral."}
+{"key": "a32c5ee3eaa7ffcb6700ad74e47198759f8a494bad4ca2465e562c9fc28a5df4", "item_id": "nli02", "model": "model-C", "sample_idx": 3, "raw_text": "neutral."}
+{"key": "82d556cd07403a6a9fc167dcf3954e5866ced7bf1482d78b21b5d5887d7d5381", "item_id": "nli02", "model": "model-C", "sample_idx": 4, "raw_text": "I think entailment"}
+{"key": "19e264b047dadb43ab1f2199a18afdfa250fcb3562c082b52b844c1cd0947ef4", "item_id": "nli03", "model": "model-A", "sample_idx": 0, "raw_text": "CONTRADICTION"}
+{"key": "74e1c8eee418a6309cf23b427b9ed3e6e41d2ebc2936bbef2d59eb281c7e63b3", "item_id": "nli03", "model": "model-A", "sample_idx": 1, "raw_text": "CONTRADICTION"}
+{"key": "dae08d2f9dac593c783ee58de00e68338172f3425cf21848c592ebae7e4bdb0b", "item_id": "nli03", "model": "model-A", "sample_idx": 2, "raw_text": "contradiction."}
+{"key": "db54a367ae473dee682f491d74caa67b7e6dd21b21341e6a06449de1c51bb607", "item_id": "nli03", "model": "model-A", "sample_idx": 3, "raw_text": "contradiction"}
+{"key": "1b9b93a05b4640edd1bb96236c78722f5893b598eecf03b7990929360512efc7", "item_id": "nli03", "model": "model-A", "sample_idx": 4, "raw_text": "contradiction."}
+{"key": "e2cd4cf2ed6f89b9ed1a92fae6c768c054959754406a8f3ab8d30787cb9ebc14", "item_id": "nli03", "model": "model-B", "sample_idx": 0, "raw_text": "contradiction"}
+{"key": "81ad8422524e215b4d932a3ceb24326ea025374e4480b864fa2b7b2165005fb8", "item_id": "nli03", "model": "model-B", "sample_idx": 1, "raw_text": "contradiction."}
+{"key": "ba891ac9bb754da88c314605a90b7a4a284a3bdd3ce5d42f24d75c936563afc8", "item_id": "nli03", "model": "model-B", "sample_idx": 2, "raw_text": "neutral."}
+{"key": "bb479c7d8b7cbcfc39977ddd61ced0a3861aed391dbe2c377e5131acc55167cd", "item_id": "nli03", "model": "model-B", "sample_idx": 3, "raw_text": "CONTRADICTION"}
+{"key": "fcb9e62339b518a205bbd82b29cf6e18c2ba354e2d8cc28eb04cfbcc53261766", "item_id": "nli03", "model": "model-B", "sample_idx": 4, "raw_text": "contradiction"}
+{"key": "9081c11047164753aebc3fe7a878dba3bc80dcaab3c9cef81e5d93a62e892486", "item_id": "nli03", "model": "model-C", "sample_idx": 0, "raw_text": "I think contradiction"}
+{"key": "f8b94c5e35bad48d3a8e47c6c2a6410c0d55a73dcbfae2deb4c920238408d3ae", "item_id": "nli03", "model": "model-C", "sample_idx": 1, "raw_text": "The answer is contradiction"}
+{"key": "57f53b0add6fd5e5f50527b93b73bc971c6c1b6dd332f29c145f6c7eea0818db", "item_id": "nli03", "model": "model-C", "sample_idx": 2, "raw_text": "CONTRADICTION"}
+{"key": "1198edaaf05d474ebb769b8856fca0d5d70d1bf694272a7913a3ce84f3a7e616", "item_id": "nli03", "model": "model-C", "sample_idx": 3, "raw_text": "I think contradiction"}
+{"key": "b50f9df14096f4bb29fe22b61935a5110ac17d9a49d8338f50582c0caab3e1ff", "item_id": "nli03", "model": "model-C", "sample_idx": 4, "raw_text": "contradiction."}
+{"key": "d9514aea93b9471689dbd872778c0bdde743e3beb3ce47d70f427a3f05a53738", "item_id": "nli04", "model": "model-A", "sample_idx": 0, "raw_text": "entailment."}
+{"key": "7a1304fc0fc56abadbb98dab978d403ce6a24953ee2e450560af27c3a9983916", "item_id": "nli04", "model": "model-A", "sample_idx": 1, "raw_text": "The answer is entailment"}
+{"key": "f6e2783e4dc53e4203e014e5a8e0d15a3b6c9b2318e136fec97f3a9c018be770", "item_id": "nli04", "model": "model-A", "sample_idx": 2, "raw_text": "entailment."}
+{"key": "02f1bce52ec03f87f4826de7d8fd60e419b686795a8e6eb41877eddea244c60c", "item_id": "nli04", "model": "model-A", "sample_idx": 3, "raw_text": "neutral"}
+{"key": "d8b98b893107ba792d20787aa02712271077d73c182146d7c7d3d17ed3bffc48", "item_id": "nli04", "model": "model-A", "sample_idx": 4, "raw_text": "I think entailment"}
+{"key": "c1ebf37b9455ce1967e053d06bd659d0950d013534fa66368bb8b841d86dfaa0", "item_id": "nli04", "model": "model-B", "sample_idx": 0, "raw_text": "The answer is entailment"}
+{"key": "2ae47c8a54a8578b6245ef0663f83616f6b91d8349b42eddd2d34c04356f9731", "item_id": "nli04", "model": "model-B", "sample_idx": 1, "raw_text": "entailment."}
+{"key": "4da24cbf8d4d8a1a806eaed390e722ec833871f40fb2b0930276f1926e17f5e2", "item_id": "nli04", "model": "model-B", "sample_idx": 2, "raw_text": "I think entailment"}
+{"key": "6fb5ad01214a3eacb64699d2f067a3b8ff73ab0c4c132cb65dd0a8b80932bb7c", "item_id": "nli04", "model": "model-B", "sample_idx": 3, "raw_text": "The answer is entailment"}
+{"key": "4fad43140d25bd6630bdc8f9da7c133db276b33a3fc78c34fc6b713f4220339f", "item_id": "nli04", "model": "model-B", "sample_idx": 4, "raw_text": "neutral."}
+{"key": "dda98eae06c1c5079ff6f3faaad5f99695e8158119cfd67df3e504763bec738a", "item_id": "nli04", "model": "model-C", "sample_idx": 0, "raw_text": "entailment."}
+{"key": "c8a2ef180e9b0546035cb22798660d86738eb9bc5b77e80924cce80cfd3d9e37", "item_id": "nli04", "model": "model-C", "sample_idx": 1, "raw_text": "ENTAILMENT"}
+{"key": "6842843c55439e9932f39636f1a89725a86b21938444b965be41d3f4625e9f5c", "item_id": "nli04", "model": "model-C", "sample_idx": 2, "raw_text": "neutral."}
+{"key": "857f7f8e9efd5b78d433274883ad9b15c7d93fe002d83f854452a4b41040c2fa", "item_id": "nli04", "model": "model-C", "sample_idx": 3, "raw_text": "entailment."}
+{"key": "5d65c6db88b86001c1e6df46f3cae6874b454be8556d978e46c19f26b3a2c679", "item_id": "nli04", "model": "model-C", "sample_idx": 4, "raw_text": "I think entailment"}
+{"key": "dd76a7d56159ebcdde0900f1ead4955108f946310ed67cd979a3fc89eadfb564", "item_id": "nli05", "model": "model-A", "sample_idx": 0, "raw_text": "The answer is neutral"}
+{"key": "06cccbcea01a51172ca5fd0cf9a80620474599398b778aefd418f963e661df97", "item_id": "nli05", "model": "model-A", "sample_idx": 1, "raw_text": "I think entailment"}
+{"key": "bcd07a2c38fe5299d18465946431cdde1e1ef6e329ccf5c99a48fc66b0b86976", "item_id": "nli05", "model": "model-A", "sample_idx": 2, "raw_text": "neutral."}
+{"key": "2136898fabf182de16fed1522e01d55a9ff23dfcf7c4c636fca56b16ed199eb4", "item_id": "nli05", "model": "model-A", "sample_idx": 3, "raw_text": "NEUTRAL"}
+{"key": "cbf8f47f14a37554741206fd3f30be84fe2f76e4398a433e0889c008a2ffd9dc", "item_id": "nli05", "model": "model-A", "sample_idx": 4, "raw_text": "I think neutral"}
+{"key": "b3f049bf29b6bd0eb4d450bfd0bb97bf40e81d3f200f8c5d7980e02d7b1e8c04", "item_id": "nli05", "model": "model-B", "sample_idx": 0, "raw_text": "I think neutral"}
+{"key": "cfb848ab71c5b0436e9fcd098e96a2e58d9741b6a3ace82f2b0b7f193552d5ed", "item_id": "nli05", "model": "model-B", "sample_idx": 1, "raw_text": "The answer is entailment"}
+{"key": "cf3ad47c15e85be701a35854d5004a2b0c283669db7ba658fc29b426b4760c6c", "item_id": "nli05", "model": "model-B", "sample_idx": 2, "raw_text": "I think neutral"}
+{"key": "de35f6e99dec56d357e29bd22350986c139e86c5970e74cf3466713a52845588", "item_id": "nli05", "model": "model-B", "sample_idx": 3, "raw_text": "entailment"}
+{"key": "3d813d502e160ecddc4156daec3837c60e085aa45fe999a654d5ea6e6e2dacc8", "item_id": "nli05", "model": "model-B", "sample_idx": 4, "raw_text": "The answer is entailment"}
+{"key": "439ead0a267d4c97357d842772eae56310449475499ee501203766c5248a0745", "item_id": "nli05", "model": "model-C", "sample_idx": 0, "raw_text": "I think entailment"}
+{"key": "12fad71c5572b44500279abf4ee96f853fb9999cd37f8cd0fc1fd6c3af4ac5f0", "item_id": "nli05", "model": "model-C", "sample_idx": 1, "raw_text": "I think neutral"}
+{"key": "36cdc02a82a111623fb2d2f6e895d834e92382a6b97adf8dc0d67e498979a61a", "item_id": "nli05", "model": "model-C", "sample_idx": 2, "raw_text": "ENTAILMENT"}
+{"key": "57a7502788c9432c96994244fc8a4200bbca502b80b4443c317c6bbb1c4068ff", "item_id": "nli05", "model": "model-C", "sample_idx": 3, "raw_text": "I think entailment"}
+{"key": "84b9660fe22b3edc759e8deabca8b060d3581b00f50eea162290dd6b20b42b4e", "item_id": "nli05", "model": "model-C", "sample_idx": 4, "raw_text": "neutral."}
+{"key": "7021e3f1379c51e02cfb0bacd02b3486b276bc98190965141ba257da891c5513", "item_id": "nli06", "model": "model-A", "sample_idx": 0, "raw_text": "The answer is neutral"}
+{"key": "7e6df23adf8235f1e8107131a98cb38aa48d97bca816dec34523a340ea240c16", "item_id": "nli06", "model": "model-A", "sample_idx": 1, "raw_text": "The answer is contradiction"}
+{"key": "1f7ebe2250889659dc4a306d6a1c2d04740d53c0a87f018ec01b8483d4cbbda6", "item_id": "nli06", "model": "model-A", "sample_idx": 2, "raw_text": "The answer is contradiction"}
+{"key": "84375322777bcbe8012163469741fb1845d9519fae7ad417ebcda4c1dd6a3c4c", "item_id": "nli06", "model": "model-A", "sample_idx": 3, "raw_text": "The answer is contradiction"}
+{"key": "c821a0f09cb1be1233932cdfa4173a62032b6d2f8e4d20ea1a3c0aedc584852b", "item_id": "nli06", "model": "model-A", "sample_idx": 4, "raw_text": "I think neutral"}
+{"key": "b4fa7af31b87d54fea4020346f699f17df80b7dc06aea9a9f0883e9d2e28bc0c", "item_id": "nli06", "model": "model-B", "sample_idx": 0, "raw_text": "contradiction"}
+{"key": "ad6ae2c5209e5e80503abf6d4ff83be71a2bfaa7faff7b2612d72ded3bc219a5", "item_id": "nli06", "model": "model-B", "sample_idx": 1, "raw_text": "NEUTRAL"}
+{"key": "cb74d52befef158ad1fb0d8d420d821741097f328cc84edfed94dea2ab0eb006", "item_id": "nli06", "model": "model-B", "sample_idx": 2, "raw_text": "The answer is contradiction"}
+{"key": "1d65741ee96e0f6bc60247a4b1e001fcf959d57afce7de8bf368fb9d213eaf91", "item_id": "nli06", "model": "model-B", "sample_idx": 3, "raw_text": "NEUTRAL"}
+{"key": "9bf2a8b9daeff50e093fdf4c0e1983f51aff2527fdaa72842ccce81e8eb923ba", "item_id": "nli06", "model": "model-B", "sample_idx": 4, "raw_text": "I think contradiction"}
+{"key": "16ef58a5ccc9e67080142448b1992cd259d3c92972eb7b138fb328538dd9e224", "item_id": "nli06", "model": "model-C", "sample_idx": 0, "raw_text": "The answer is neutral"}
+{"key": "7be58fbbb0c432d1dce7be27bf4179bcd6ee05e3b2e35a987d56ffb985831769", "item_id": "nli06", "model": "model-C", "sample_idx": 1, "raw_text": "The answer is contradiction"}
+{"key": "8a27852eb54901b83d83877888abb502606557259bff2518abb8e61d96927f4f", "item_id": "nli06", "model": "model-C", "sample_idx": 2, "raw_text": "The answer is contradiction"}
+{"key": "ab668c2ca3d49d1d3d302b610661109c989228af5a8bcbadc5c0847840096871", "item_id": "nli06", "model": "model-C", "sample_idx": 3, "raw_text": "The answer is neutral"}
+{"key": "ef7458670aec93ddbb318d51c0bf6e1fc7413b0da71f2d8b5f736cb155f0a125", "item_id": "nli06", "model": "model-C", "sample_idx": 4, "raw_text": "neutral."}
+{"key": "d530a221562c033c32975ce992c1517446854a57d5bf7da3038f95720288114b", "item_id": "nli07", "model": "model-A", "sample_idx": 0, "raw_text": "neutral"}
+{"key": "0a157ec30c5745d7eea3b1ec376d0a42b4c12512ae7dbd440f761b4504fb5ac3", "item_id": "nli07", "model": "model-A", "sample_idx": 1, "raw_text": "The answer is neutral"}
+{"key": "a24fbc2416f98ca3fb4c545316a81050e0d63bc86d722767b432338f6a128587", "item_id": "nli07", "model": "model-A", "sample_idx": 2, "raw_text": "The answer is neutral"}
+{"key": "547c5bd4c244a53e72ca31ae9a3bf74511c42fcb8215f12c77805f48e5891470", "item_id": "nli07", "model": "model-A", "sample_idx": 3, "raw_text": "entailment."}
+{"key": "0eb3b1183248c7ce464a264f302d6a128c26da88c09301e2a4e9f3a0e934a20f", "item_id": "nli07", "model": "model-A", "sample_idx": 4, "raw_text": "The answer is neutral"}
+{"key": "27953bc6e372204926f318dd480cadd2fd309f13a880d13484418834e353c020", "item_id": "nli07", "model": "model-B", "sample_idx": 0, "raw_text": "neutral"}
+{"key": "c6a281187383bf05f6d1744135788e916a1f38d4861ae39c05ae291d0a061a86", "item_id": "nli07", "model": "model-B", "sample_idx": 1, "raw_text": "I think entailment"}
+{"key": "b5154da1757d1b7be511e9a5a64ce7dee93e4deabafdede08c884e9be48077fe", "item_id": "nli07", "model": "model-B", "sample_idx": 2, "raw_text": "The answer is neutral"}
+{"key": "d7803128ddc47d3bfc85b28439e705b3e24f8f934aceaa5d7e51ee195497236a", "item_id": "nli07", "model": "model-B", "sample_idx": 3, "raw_text": "The answer is neutral"}
+{"key": "ddc52d0498a020237a9c92515da9c93d63276667815323977aba6bdc8840e98f", "item_id": "nli07", "model": "model-B", "sample_idx": 4, "raw_text": "I think entailment"}
+{"key": "a9173fc58da74b31e1d0f22450593f8d10c153b03c573eceb2d7ccc59e9b2196", "item_id": "nli07", "model": "model-C", "sample_idx": 0, "raw_text": "neutral"}
+{"key": "bfb29e6529dee54a39d2633e534b0ecc7310cf22fc022801bd828a30f2fc1af2", "item_id": "nli07", "model": "model-C", "sample_idx": 1, "raw_text": "entailment"}
+{"key": "2b0abe2b3e1a00f41693df32f27a2c53a737974cce1bc72bc9f1833bfe1fd703", "item_id": "nli07", "model": "model-C", "sample_idx": 2, "raw_text": "neutral"}
+{"key": "3b44b0f7114050ca2042b44d7785c19744645803717474ff97a05eff57251a3d", "item_id": "nli07", "model": "model-C", "sample_idx": 3, "raw_text": "The answer is neutral"}
+{"key": "01bd82e6f427fdfaf458c17e2c1b4121471421b221dbd3650c568ae378d7137c", "item_id": "nli07", "model": "model-C", "sample_idx": 4, "raw_text": "The answer is entailment"}
+{"key": "f7f9f23b34af0f026db425925f74b9a779fe6291a1507a8d164e7bd2b16c78ec", "item_id": "nli08", "model": "model-A", "sample_idx": 0, "raw_text": "contradiction"}
+{"key": "b25f64b0d4607a4c6bec35de5d5d24cf5f24c8997beaa08accd651175e8ddffe", "item_id": "nli08", "model": "model-A", "sample_idx": 1, "raw_text": "contradiction."}
+{"key": "42ceeefee3d888c7a82b8f5c2dc790ffda5dcee9ea10c73391171c75fe436145", "item_id": "nli08", "model": "model-A", "sample_idx": 2, "raw_text": "I think contradiction"}
+{"key": "c77d061e889005d0208c8554f5cb232cd441e2a3d5ba48db1a6061563741179b", "item_id": "nli08", "model": "model-A", "sample_idx": 3, "raw_text": "I think contradiction"}
+{"key": "ee5f40ce9c05c9136b211eb3a8e18ff6d0d9b31a76a7f4110d2a3acc17dfee1b", "item_id": "nli08", "model": "model-A", "sample_idx": 4, "raw_text": "The answer is contradiction"}
+{"key": "73f1aa832e3a0c715451e40d0d0b5270f0addc1958f53698b9f6deb283cc116d", "item_id": "nli08", "model": "model-B", "sample_idx": 0, "raw_text": "contradiction"}
+{"key": "e5284d62fa9aaa896e4a3cd052a36e1155454caa32a4fc6d7c4d099ca3a8e6b3", "item_id": "nli08", "model": "model-B", "sample_idx": 1, "raw_text": "CONTRADICTION"}
+{"key": "3720e577d29636cb72968b4af9f1e5ddc37000392e970bfa8445ccf39b89eec9", "item_id": "nli08", "model": "model-B", "sample_idx": 2, "raw_text": "I think contradiction"}
+{"key": "84b432da027a6611b1e24ce73a621417b00374d6ff52f4362f6158ba5283e5d5", "item_id": "nli08", "model": "model-B", "sample_idx": 3, "raw_text": "contradiction"}
+{"key": "cfa365bb0d49533a4fba15f9940d2d57e088d18e77c853246e1d53777aece99b", "item_id": "nli08", "model": "model-B", "sample_idx": 4, "raw_text": "CONTRADICTION"}
+{"key": "8720b9f308ca309bfc242af5a9e0364dba7b243e1727ae4e906a4c2db57389e3", "item_id": "nli08", "model": "model-C", "sample_idx": 0, "raw_text": "CONTRADICTION"}
+{"key": "b77895cfd4ea02098e07d74d052e4071bcd0b55952dfe79e78a5cdc0839a5fde", "item_id": "nli08", "model": "model-C", "sample_idx": 1, "raw_text": "The answer is contradiction"}
+{"key": "e414ab10b4ab00c3053d91071925f98f21b4220ca76a1578d20dcc5fc15515cd", "item_id": "nli08", "model": "model-C", "sample_idx": 2, "raw_text": "contradiction"}
+{"key": "00a947e7d5b229a28e46a17bff19e7c028ee99ef9f9610f1faf09568264a639c", "item_id": "nli08", "model": "model-C", "sample_idx": 3, "raw_text": "I think contradiction"}
+{"key": "82a79735cb67e641ec9c92b17826f252398717dfecd9379b949e737e891ecd94", "item_id": "nli08", "model": "model-C", "sample_idx": 4, "raw_text": "The answer is neutral"}
+{"key": "eccd86e45888e470f35055b7d205adbe13a7de2e07dc384d757806bd0257511a", "item_id": "nli09", "model": "model-A", "sample_idx": 0, "raw_text": "The answer is neutral"}
+{"key": "0865cf405724a954b790b8d4c7dd8a9b524118c6c871ef5eae0d279c57cb5987", "item_id": "nli09", "model": "model-A", "sample_idx": 1, "raw_text": "neutral"}
+{"key": "eaa2790d1010f44d28e35a6de55c6d058c5d770a04c97433e643a4fed3e2534b", "item_id": "nli09", "model": "model-A", "sample_idx": 2, "raw_text": "neutral."}
+{"key": "c20e17c99655b43938bebb29c6b37c48aeca33d1d93140394a2119c1b59f74fe", "item_id": "nli09", "model": "model-A", "sample_idx": 3, "raw_text": "neutral"}
+{"key": "a98687b1221985bef26b7e961c4ffd5f1a73e0ebd9efcae7a84296e36c8a2a2f", "item_id": "nli09", "model": "model-A", "sample_idx": 4, "raw_text": "neutral."}
+{"key": "778694585c3a211d42e552c371e328a1a4e22f4cee6fd9f14dfe1b66026ab308", "item_id": "nli09", "model": "model-B", "sample_idx": 0, "raw_text": "neutral."}
+{"key": "039aa926f5d8e4bf01c0089431fc2d663f483ae974d14f2761299db817793cfe", "item_id": "nli09", "model": "model-B", "sample_idx": 1, "raw_text": "The answer is neutral"}
+{"key": "b32d2359de37bee9758c14d2e66e34bf263baec9c5acc32003de1e9044cdf97d", "item_id": "nli09", "model": "model-B", "sample_idx": 2, "raw_text": "entailment."}
+{"key": "822825393b325a9fc5d95afd87e3469ad1cc4fd04601968653b5329f02e478d3", "item_id": "nli09", "model": "model-B", "sample_idx": 3, "raw_text": "entailment"}
+{"key": "1c65cf7ac05671f07ac3eb6f93525a4c79a7a6c6934c899225171f41891706f9", "item_id": "nli09", "model": "model-B", "sample_idx": 4, "raw_text": "I think neutral"}
+{"key": "0c0c85cd1f68e0e1aea6f17e8b7b5df92cdf431277db4735d940e5cbd213c61e", "item_id": "nli09", "model": "model-C", "sample_idx": 0, "raw_text": "NEUTRAL"}
+{"key": "d8167a666f354dfebbb1dae3887be00e00ab9997d867853aa0424e6824e1aef1", "item_id": "nli09", "model": "model-C", "sample_idx": 1, "raw_text": "I think neutral"}
+{"key": "c555a2c1e3b89dc7292d69869421a45279b2b11635fb61650039d7e2b8333a1d", "item_id": "nli09", "model": "model-C", "sample_idx": 2, "raw_text": "entailment."}
+{"key": "e0ce1944602bcd08d3ba2c2018be7838e35b017c1e3c81668c77f2c20f098900", "item_id": "nli09", "model": "model-C", "sample_idx": 3, "raw_text": "entailment."}
+{"key": "f4c7975fac86183b604b070588f2fd6998cbadf2423dc4c9ba56bed34a9345e1", "item_id": "nli09", "model": "model-C", "sample_idx": 4, "raw_text": "The answer is neutral"}
+{"key": "13137f0da03a6bfbf737922764f88711c7ad0630c318c93d1e0ab83dda114580", "item_id": "nli10", "model": "model-A", "sample_idx": 0, "raw_text": "entailment."}
+{"key": "22a644b89f825dc645692a7a1f78d568aff700330ea18c899545c7a5d3e03676", "item_id": "nli10", "model": "model-A", "sample_idx": 1, "raw_text": "I think entailment"}
+{"key": "78289c2c20b0f49a72fa28bb4098856205d3c410c1e10f3a6c0968f436d16707", "item_id": "nli10", "model": "model-A", "sample_idx": 2, "raw_text": "The answer is entailment"}
+{"key": "004fb701e632b7b2905b0bf3abd933d50545611f50cb2d653f465f47c40b0f03", "item_id": "nli10", "model": "model-A", "sample_idx": 3, "raw_text": "I think entailment"}
+{"key": "eb95e3ca2543e397b58446441121c7dc7d0625aa431063665fa5b235d59d1864", "item_id": "nli10", "model": "model-A", "sample_idx": 4, "raw_text": "ENTAILMENT"}
+{"key": "7235690183d42ee1d483eda43d37989d5befff42e4849613680745bf208062e6", "item_id": "nli10", "model": "model-B", "sample_idx": 0, "raw_text": "entailment"}
+{"key": "cb7e964acce17dded4ed3b5d65fcf03805c0c785503589221e537f8f8710693c", "item_id": "nli10", "model": "model-B", "sample_idx": 1, "raw_text": "entailment"}
+{"key": "21b0afac68bbcb1334198b15368830a559346637b045f9e65391dfd5f0dfb46c", "item_id": "nli10", "model": "model-B", "sample_idx": 2, "raw_text": "I think entailment"}
+{"key": "1d80580fed60b536fef5ff28c6e9f3a3a46674a0418d6b83840e5b9974a4c6b9", "item_id": "nli10", "model": "model-B", "sample_idx": 3, "raw_text": "ENTAILMENT"}
+{"key": "e3acf955e490f7c5b759c7103c6493b69c267a4a36779c6d4aa397d298b47704", "item_id": "nli10", "model": "model-B", "sample_idx": 4, "raw_text": "entailment."}
+{"key": "0b7c9c90d25fb41b1c4e55d6ab79df9d07f6fb016b153156f01b7586e89c87f0", "item_id": "nli10", "model": "model-C", "sample_idx": 0, "raw_text": "I think entailment"}
+{"key": "5eaf8e289bbd07b13bcb88bffccafb491398e114fb40fa6406584c89f18675e0", "item_id": "nli10", "model": "model-C", "sample_idx": 1, "raw_text": "I think entailment"}
+{"key": "cfb191e1ef5fe29bf8d573311eea1ded9b9c148ea3421963a90c58a076cda3ef", "item_id": "nli10", "model": "model-C", "sample_idx": 2, "raw_text": "The answer is entailment"}
+{"key": "164a9d49bfffc237762f4c0b7882ededacdf9aa1be3e20f1a86205aaf9a2cb94", "item_id": "nli10", "model": "model-C", "sample_idx": 3, "raw_text": "entailment"}
+{"key": "7761f7ced1df0856054816b7fd6114790918474f639206ac1bc9b79bb228700f", "item_id": "nli10", "model": "model-C", "sample_idx": 4, "raw_text": "entailment"}
+{"key": "7a6933374eed3628db1e408ad9fb58e2041b2190ec7ef894cb648c80f3394de0", "item_id": "nli11", "model": "model-A", "sample_idx": 0, "raw_text": "I think neutral"}
+{"key": "9f4308769a408fae072623d09d4af2c38d7f55c9c415c3ae7b51c81e79dec490", "item_id": "nli11", "model": "model-A", "sample_idx": 1, "raw_text": "I think neutral"}
+{"key": "7ec97d3e0c7e44c09e3ed527830f03ca60b4fc82ae3bf754dc4069ff5ffea620", "item_id": "nli11", "model": "model-A", "sample_idx": 2, "raw_text": "I think neutral"}
+{"key": "d8e4b87abfbfac5d6b82d2098dd437f841a6d564cf3d46dd22c8e0497b745406", "item_id": "nli11", "model": "model-A", "sample_idx": 3, "raw_text": "I think neutral"}
+{"key": "d5d854b3aa30d2a3e771628078f447024cbb08ec6d9740bb710c0252dfd07a16", "item_id": "nli11", "model": "model-A", "sample_idx": 4, "raw_text": "The answer is neutral"}
+{"key": "162432f5514a2e69d6663e266a87f1d65e481f91d439a666d64433698c961adb", "item_id": "nli11", "model": "model-B", "sample_idx": 0, "raw_text": "neutral"}
+{"key": "4a32ae13e6fb57a2571153b3f57a5365f5aa393ffb17d4500a878ef87d4849d3", "item_id": "nli11", "model": "model-B", "sample_idx": 1, "raw_text": "neutral"}
+{"key": "25cb3976f3b8ff44bd4043e5350db37ac7589a64d5fdca79026c866183f24ffc", "item_id": "nli11", "model": "model-B", "sample_idx": 2, "raw_text": "The answer is contradiction"}
+{"key": "498322d7ae67d33ab50994d0e578b084df67618b151a4e3116aee9024fb26b75", "item_id": "nli11", "model": "model-B", "sample_idx": 3, "raw_text": "The answer is neutral"}
+{"key": "c1d1023783d2d96e5a6bc287f5173841350e1867e2c276e7704a58c9b123c8ca", "item_id": "nli11", "model": "model-B", "sample_idx": 4, "raw_text": "The answer is neutral"}
+{"key": "72ebb331b35169024c43f5720386f7ad88cf0585df23857f2159b745d983bb59", "item_id": "nli11", "model": "model-C", "sample_idx": 0, "raw_text": "I think neutral"}
+{"key": "42cbb1b31b36d6493024b8c0e487caeb365487611463c8e47e109ad5a592097a", "item_id": "nli11", "model": "model-C", "sample_idx": 1, "raw_text": "neutral."}
+{"key": "ef5df5e6793d0ef1d9dabb191c329f66bf01ce7847b0125df9347bc4d09d4260", "item_id": "nli11", "model": "model-C", "sample_idx": 2, "raw_text": "neutral."}
+{"key": "87f7cd5403389e008d80c9e99593f37fc2793aa33df2e8e8165b43591e0e1573", "item_id": "nli11", "model": "model-C", "sample_idx": 3, "raw_text": "I think entailment"}
+{"key": "0f17532f99c7fecd715d5afb7c33597362a4870468dc0e5dd878ca6adcf22cf5", "item_id": "nli11", "model": "model-C", "sample_idx": 4, "raw_text": "neutral."}
+{"key": "edca3d2accc64cfdfe91116eac2b58b10842bd07612199221a950e423b030cc4", "item_id": "nli12", "model": "model-A", "sample_idx": 0, "raw_text": "contradiction."}
+{"key": "ea4de2f1614a936deb1f2984a5f9958fbd46111c05fd01fbb41385be09dadb3d", "item_id": "nli12", "model": "model-A", "sample_idx": 1, "raw_text": "I think contradiction"}
+{"key": "4def896dc5b9006519c2b8e2406e133951cc2412d0dd8285461a079a78e6a51d", "item_id": "nli12", "model": "model-A", "sample_idx": 2, "raw_text": "contradiction."}
+{"key": "17d28fd89cc058328343eedd4bd64a234240b063ed4bc77e8eca28629b73e8a2", "item_id": "nli12", "model": "model-A", "sample_idx": 3, "raw_text": "contradiction."}
+{"key": "d19a2bd8255be7ff5eac399c0f0af1cde43f20c411e3f3d695ab52dbccb49e8b", "item_id": "nli12", "model": "model-A", "sample_idx": 4, "raw_text": "I think contradiction"}
+{"key": "f6a4f910c241e376db12649143d3b7566cea18cd9f1a5619df033d1ae1c9b9f6", "item_id": "nli12", "model": "model-B", "sample_idx": 0, "raw_text": "I think contradiction"}
+{"key": "98caa16c740566b0843a50cbeafe5fc0fa771edb5b1c0eb80de97a96598faeb3", "item_id": "nli12", "model": "model-B", "sample_idx": 1, "raw_text": "contradiction"}
+{"key": "a7662d5c83595d21d0dcd92b6ad2008baa0d45a8715d159fe6e8bb03d15aca47", "item_id": "nli12", "model": "model-B", "sample_idx": 2, "raw_text": "contradiction."}
+{"key": "388b2fec9b8ad5e4830fe2340e9944bd2984aafb8f9fc2300869ea4308d40281", "item_id": "nli12", "model": "model-B", "sample_idx": 3, "raw_text": "I think contradiction"}
+{"key": "b45eedbce10d474c128cebd272d30cab905508441b9a4f06031cb60c347f68c9", "item_id": "nli12", "model": "model-B", "sample_idx": 4, "raw_text": "I think contradiction"}
+{"key": "2f023e97539a9ebd35f45275ffdc7ed2d45554b4b970b2afe8d30fab9131b14e", "item_id": "nli12", "model": "model-C", "sample_idx": 0, "raw_text": "contradiction."}
+{"key": "563ed057830380b9b2c6e53f155659ef4cf7f401dac5b235a0d8c3df27057c10", "item_id": "nli12", "model": "model-C", "sample_idx": 1, "raw_text": "I think contradiction"}
+{"key": "9242972cad1ea099cdacd544465e3b087dba27082cff749f100c220f4bc2b63a", "item_id": "nli12", "model": "model-C", "sample_idx": 2, "raw_text": "The answer is contradiction"}
+{"key": "decc34d7dc326272f09101591d59e5e24f24cdfe4cf59b14f79ea4e7ff00e52f", "item_id": "nli12", "model": "model-C", "sample_idx": 3, "raw_text": "contradiction."}
+{"key": "222019c78b0326baed63c404e36ee58079fb31f284612bb217ef499d005054be", "item_id": "nli12", "model": "model-C", "sample_idx": 4, "raw_text": "contradiction"}
+{"key": "2778b541381ed3a01a9bf1cb99ff4cf26055b30d1192b3bdbad2ab0c7302f3ed", "item_id": "nli13", "model": "model-A", "sample_idx": 0, "raw_text": "neutral."}
+{"key": "c212e0c7252ced30a651e6e15d138d6ded97aa78e1e1fd9593f8556cec02247d", "item_id": "nli13", "model": "model-A", "sample_idx": 1, "raw_text": "neutral."}
+{"key": "82edb1c6823519d75205ad899d663291b0d0e722f46c381b660678a25ef90403", "item_id": "nli13", "model": "model-A", "sample_idx": 2, "raw_text": "neutral."}
+{"key": "26e84595bb318dc3be0df3f82bd4ea2c481f00e3423b2357a2e65807cb1f60d0", "item_id": "nli13", "model": "model-A", "sample_idx": 3, "raw_text": "NEUTRAL"}
+{"key": "32899d5fee52a88bf2447b9160eae0315ee41efd703127e4618ab3ee68d3a867", "item_id": "nli13", "model": "model-A", "sample_idx": 4, "raw_text": "I think entailment"}
+{"key": "cbcc487dfe32c51120f0cc5a08697d1d3b88d7699b7a943aed19d8fdca82dcb5", "item_id": "nli13", "model": "model-B", "sample_idx": 0, "raw_text": "ENTAILMENT"}
+{"key": "de95138c6b42333fdecd6792717d96c9e1b299ebc5c232a8c5c6d3313d6e1c48", "item_id": "nli13", "model": "model-B", "sample_idx": 1, "raw_text": "I think neutral"}
+{"key": "55cf128e2e77fb8fff58575749a71366aa3e276d463807e457484b6e14e956ff", "item_id": "nli13", "model": "model-B", "sample_idx": 2, "raw_text": "The answer is entailment"}
+{"key": "bf94e68c165767674278447d9b9d060f1712f3ae2430792ebfd6efbe2e8f3917", "item_id": "nli13", "model": "model-B", "sample_idx": 3, "raw_text": "NEUTRAL"}
+{"key": "226d3d3b9985472443420391bb1e89511046975875a672b7b40ac9c72a0e890d", "item_id": "nli13", "model": "model-B", "sample_idx": 4, "raw_text": "The answer is neutral"}
+{"key": "6450b5343d79c57928bd14637f9cae3744696e07ab41b4d576e1b4c086d15796", "item_id": "nli13", "model": "model-C", "sample_idx": 0, "raw_text": "neutral"}
+{"key": "5945be86bf871453284267eea1df94bea43bc89b6694253f12e5737f18151cee", "item_id": "nli13", "model": "model-C", "sample_idx": 1, "raw_text": "entailment."}
+{"key": "d8bd75b42de533f6d95bde47898ba9876b2c84a9ac9bb5f071cecad8b5acebdc", "item_id": "nli13", "model": "model-C", "sample_idx": 2, "raw_text": "The answer is entailment"}
+{"key": "e6c905e65e45e73874a6b872b8adacf472a2209ac12a049b0451d328a113ba5c", "item_id": "nli13", "model": "model-C", "sample_idx": 3, "raw_text": "neutral"}
+{"key": "cb6141bca2bf2cc43d1dbffa8456a9612f7c66dcd86898dcded15aae97a3487a", "item_id": "nli13", "model": "model-C", "sample_idx": 4, "raw_text": "I think neutral"}
+{"key": "cb6f685ec1a5721b1f2c2a4fa8c2bd6b62f8b640e4a5971849a99a6ad9f32a75", "item_id": "nli14", "model": "model-A", "sample_idx": 0, "raw_text": "NEUTRAL"}
+{"key": "76cd93e2fdb46fcb3860e9e3568b762216da30cf4b870a620a0bb600f84f8fa9", "item_id": "nli14", "model": "model-A", "sample_idx": 1, "raw_text": "neutral"}
+{"key": "a552c4d13e96ead5599fad08a64b454d4e318c1fc8d98722e0101e54ee2789f3", "item_id": "nli14", "model": "model-A", "sample_idx": 2, "raw_text": "neutral"}
+{"key": "240a668244b9e527f1f7da9ff4d0f8813b59d69736e04c7a59ea9b6e1e1958cc", "item_id": "nli14", "model": "model-A", "sample_idx": 3, "raw_text": "neutral"}
+{"key": "f58064b37fa99ff40575c37f8e8deab9cb4ec70ac5e5fe1f11b854a34ae8c3bb", "item_id": "nli14", "model": "model-A", "sample_idx": 4, "raw_text": "neutral."}
+{"key": "81333853797116626745a8b85f8e7f3be5fd8e44595a4e37350c752748af16e6", "item_id": "nli14", "model": "model-B", "sample_idx": 0, "raw_text": "I think neutral"}
+{"key": "4f458412600734e0f0c548da694cd528ca14d3c1f9b9b7526a1adc792a9d9600", "item_id": "nli14", "model": "model-B", "sample_idx": 1, "raw_text": "NEUTRAL"}
+{"key": "c87621b1429dbc66899922bf8e0605b40cf93a093ce322a64038f504e7a1502b", "item_id": "nli14", "model": "model-B", "sample_idx": 2, "raw_text": "The answer is entailment"}
+{"key": "2b46b273cfd463ca69728dd7222f13f32e79f6915693c937e56221eb251b8243", "item_id": "nli14", "model": "model-B", "sample_idx": 3, "raw_text": "entailment."}
+{"key": "c156f6d498c66e2a2f30dd733869a77ad7172f26ead3a67b939d0bfb921bd347", "item_id": "nli14", "model": "model-B", "sample_idx": 4, "raw_text": "neutral"}
+{"key": "9bfbbb63785b45a1f93f2e3b2ed72d4d21ee5383e074256c5ebd470ffe8b4133", "item_id": "nli14", "model": "model-C", "sample_idx": 0, "raw_text": "neutral."}
+{"key": "ea877f870ec4b4a9929821b35df5d113986837a85cf265bea6df812d2bba3ad8", "item_id": "nli14", "model": "model-C", "sample_idx": 1, "raw_text": "The answer is entailment"}
+{"key": "c5ba642ee851205f7456cad9d83fb061bcd3072988a3ab6f6baf0cd945a1ab6a", "item_id": "nli14", "model": "model-C", "sample_idx": 2, "raw_text": "The answer is contradiction"}
+{"key": "cf7c913722d4d8f7974cc7979dddbc3fa1e24f78883b5cd24a11f30e79f0cff5", "item_id": "nli14", "model": "model-C", "sample_idx": 3, "raw_text": "The answer is entailment"}
+{"key": "63daa39546b5e8ddc65cae52a1786d518569ad1ad96bf42ec1252db089667093", "item_id": "nli14", "model": "model-C", "sample_idx": 4, "raw_text": "NEUTRAL"}
+{"key": "ffc88d50711d05dedd7f6a8441f96487b10fb9220419e3fa7542a7ef7a46a093", "item_id": "sar01", "model": "model-A", "sample_idx": 0, "raw_text": "sarcastic"}
+{"key": "74da806c64a694796b20435813c55f508d20a5a3b38b0858ead8f3260616742f", "item_id": "sar01", "model": "model-A", "sample_idx": 1, "raw_text": "The answer is sarcastic"}
+{"key": "95d2aaa49b1cb4af38fdf46c24805922f6acc74399f066ce72ebff024449ffca", "item_id": "sar01", "model": "model-A", "sample_idx": 2, "raw_text": "SARCASTIC"}
+{"key": "7216354e59d0f8f2462d54dce3036b380f7111fccf3097686e01fd96c8a4598f", "item_id": "sar01", "model": "model-A", "sample_idx": 3, "raw_text": "I think sarcastic"}
+{"key": "eb1ced7de826927ae8ca455735a2f372ebad4efdbb626f01be85f7af24eed7b5", "item_id": "sar01", "model": "model-A", "sample_idx": 4, "raw_text": "SARCASTIC"}
+{"key": "adf4563d6aa69184a25fa04281ce4ca6a47b7a5a3fbc75102e85062d070e0e7e", "item_id": "sar01", "model": "model-B", "sample_idx": 0, "raw_text": "sarcastic"}
+{"key": "365871a9ed138f9df8666f9a3cb7be59b27de42ebbaefba28b05992f325ab56d", "item_id": "sar01", "model": "model-B", "sample_idx": 1, "raw_text": "I think sarcastic"}
+{"key": "62363c76450a63f639faff7a17d6461c67cc004fa443b9d37d98f9f381184a94", "item_id": "sar01", "model": "model-B", "sample_idx": 2, "raw_text": "SARCASTIC"}
+{"key": "19c2a38f0ddad7b1d709014900be04f46ef9b94b6f6a725f21ed7e720ce5cbf0", "item_id": "sar01", "model": "model-B", "sample_idx": 3, "raw_text": "SARCASTIC"}
+{"key": "3a59fb43da2ca4f154b9dbf5e1ce1a851ee35b73a283aff726354ea21692f166", "item_id": "sar01", "model": "model-B", "sample_idx": 4, "raw_text": "sarcastic"}
+{"key": "74fc8d63a487228aad5d12ce17612806810cd2be9053959a51011a5fff519d11", "item_id": "sar01", "model": "model-C", "sample_idx": 0, "raw_text": "The answer is sarcastic"}
+{"key": "4687f21a1343445d5a91065c219c76821fec2167d54005ae9fba821d26faa2c3", "item_id": "sar01", "model": "model-C", "sample_idx": 1, "raw_text": "The answer is sarcastic"}
+{"key": "4b083e4e397dfae88dd011730988291416723df4c29660860ce6d413662905e8", "item_id": "sar01", "model": "model-C", "sample_idx": 2, "raw_text": "I think sarcastic"}
+{"key": "92674046d58b0178dff44d917a5657c39af3189b54a3b02ec997374be20e97e0", "item_id": "sar01", "model": "model-C", "sample_idx": 3, "raw_text": "The answer is sarcastic"}
+{"key": "8f865f4f454bc5e04e3f032776ae1c1c8e306c2d60214d0896203642f13423f0", "item_id": "sar01", "model": "model-C", "sample_idx": 4, "raw_text": "sarcastic."}
+{"key": "dc5490076f81c4249b8badb5f4063f1b81f186664bbb8563c5290b6598a91a17", "item_id": "sar02", "model": "model-A", "sample_idx": 0, "raw_text": "I think not_sarcastic"}
+{"key": "06ac74edfc546a11095751febd7a44d22521d55639216514256c4951d15a2fee", "item_id": "sar02", "model": "model-A", "sample_idx": 1, "raw_text": "not_sarcastic."}
+{"key": "464c117922b1dab743fbba4914ca80032ab41c1229b1ab664f4ac88d1c87366f", "item_id": "sar02", "model": "model-A", "sample_idx": 2, "raw_text": "NOT_SARCASTIC"}
+{"key": "675346237e31f1cdd5575f9f68c2cf298e0cb433c9135aeb6da0c8336b6bf92e", "item_id": "sar02", "model": "model-A", "sample_idx": 3, "raw_text": "not_sarcastic"}
+{"key": "40abfe48d26ee0a112e28affbaaff3affb0f041864f3145aecff8b24c633e235", "item_id": "sar02", "model": "model-A", "sample_idx": 4, "raw_text": "not_sarcastic"}
+{"key": "6a8cff5fe203f8209238bc1750e9ca35125612c2e8f56871d4f93a6e7b5e77ea", "item_id": "sar02", "model": "model-B", "sample_idx": 0, "raw_text": "The answer is not_sarcastic"}
+{"key": "01971b62ad1cb17d38605778616930849a5c38f45db5b21087bbc15ef735017a", "item_id": "sar02", "model": "model-B", "sample_idx": 1, "raw_text": "I think not_sarcastic"}
+{"key": "0d3106b5417cbe7838bd76059b7163e39112fec40a51615f6f87792e467083fe", "item_id": "sar02", "model": "model-B", "sample_idx": 2, "raw_text": "not_sarcastic."}
+{"key": "39ecc038833626c433bb75a00d4dc324932700774d67db27f88e8dfadc790d87", "item_id": "sar02", "model": "model-B", "sample_idx": 3, "raw_text": "not_sarcastic"}
+{"key": "01fc2752a3302b90a1259b492aa0bb2a2da08dc2b10e56db06c7be0663ad93a4", "item_id": "sar02", "model": "model-B", "sample_idx": 4, "raw_text": "NOT_SARCASTIC"}
+{"key": "090d977ca81b496b32aba13d33326109f1d176cba9aa948c39ee0db03d191b94", "item_id": "sar02", "model": "model-C", "sample_idx": 0, "raw_text": "not_sarcastic"}
+{"key": "8a29d1bdda44d379481afbeaff98d1ffe903a723e6c877e25614641e276e638e", "item_id": "sar02", "model": "model-C", "sample_idx": 1, "raw_text": "I think not_sarcastic"}
+{"key": "f8279a1e0af7fa42852c13c38e59ccaa2f1671421e01560e1832c4739c9aaf7f", "item_id": "sar02", "model": "model-C", "sample_idx": 2, "raw_text": "sarcastic"}
+{"key": "c220cc6e4379542f79a5160bc5d95b0971d0539ad4650345409bdd7ffd8c6d95", "item_id": "sar02", "model": "model-C", "sample_idx": 3, "raw_text": "not_sarcastic."}
+{"key": "c740e98d375cdfba58eb47f972d72772d967c45785cb89913c78986dda9d1592", "item_id": "sar02", "model": "model-C", "sample_idx": 4, "raw_text": "I think not_sarcastic"}
+{"key": "9b21a28bac629fdb69bb4670c7caf96849148ac6ef294a54e77040d20da6dcdf", "item_id": "sar03", "model": "model-A", "sample_idx": 0, "raw_text": "The answer is sarcastic"}
+{"key": "c66361bed549c49cccf177f702f906e07aafe207f2f56edeca5807dc613c65d8", "item_id": "sar03", "model": "model-A", "sample_idx": 1, "raw_text": "I think sarcastic"}
+{"key": "65f020c01e11fe6449cf3e6160c80c164d8512a06be629b16357e30def5c2ff7", "item_id": "sar03", "model": "model-A", "sample_idx": 2, "raw_text": "SARCASTIC"}
+{"key": "05263d301226ffe611fb11cae9bd129b738af87a29afb478f85a49e60e8f531c", "item_id": "sar03", "model": "model-A", "sample_idx": 3, "raw_text": "The answer is sarcastic"}
+{"key": "4547bcfca31da95ad06dd710a98cfcccb818eac9d54052ec68ac810300fba9ec", "item_id": "sar03", "model": "model-A", "sample_idx": 4, "raw_text": "I think sarcastic"}
+{"key": "bd470d326022ec66f0517897e30cb562257b84e499f04d2ba51b24e638760b58", "item_id": "sar03", "model": "model-B", "sample_idx": 0, "raw_text": "I think sarcastic"}
+{"key": "5702d7d86d65905cd545617cf191ca796efc14e37e16c72932b712ff93c4e7b4", "item_id": "sar03", "model": "model-B", "sample_idx": 1, "raw_text": "sarcastic."}
+{"key": "5373adfe55ac19bc5d8e56d6f4f729fc28976524b325e81faa92972b2bdd4d65", "item_id": "sar03", "model": "model-B", "sample_idx": 2, "raw_text": "I think sarcastic"}
+{"key": "22d1d7e93cc24eb463164986c02194a1cd580ef7422b5e77c459c09429b51d40", "item_id": "sar03", "model": "model-B", "sample_idx": 3, "raw_text": "SARCASTIC"}
+{"key": "02c740e2fa53c719810b754b2a247e7ccb8a0082f43d4ff8d657e4f04333d4e3", "item_id": "sar03", "model": "model-B", "sample_idx": 4, "raw_text": "sarcastic"}
+{"key": "865fb69561b8223685e518ff1ef0394d30f6863dbe5fba28255f18646ef6b982", "item_id": "sar03", "model": "model-C", "sample_idx": 0, "raw_text": "sarcastic"}
+{"key": "a0ba13acc67abb4858a18ca01859f968b3addb79e5bb04b2dbdd9c8e8274070b", "item_id": "sar03", "model": "model-C", "sample_idx": 1, "raw_text": "SARCASTIC"}
+{"key": "5dcb9b050f6e812b3d2f5d4379f05cffa80f29b8f74c805c70c491a9ba4d0d48", "item_id": "sar03", "model": "model-C", "sample_idx": 2, "raw_text": "The answer is sarcastic"}
+{"key": "0514609e2993adbc7c10b2a89be9a9f1ff15c5a1d21627004a5f634c31cea34c", "item_id": "sar03", "model": "model-C", "sample_idx": 3, "raw_text": "I think sarcastic"}
+{"key": "873de3ba2da39912e17d6c25fe933f593b1efd0899973ceeea00d4e3811b472c", "item_id": "sar03", "model": "model-C", "sample_idx": 4, "raw_text": "SARCASTIC"}
+{"key": "e9d6f76bf16d1aac424893cbba60cb78087907ffaf7c05ae7d2b86c60b98c9d4", "item_id": "sar04", "model": "model-A", "sample_idx": 0, "raw_text": "I think sarcastic"}
+{"key": "a6b4becf5c39da08ae6a3cdcf574991055da388e5c8db973fdc17acd9ce49690", "item_id": "sar04", "model": "model-A", "sample_idx": 1, "raw_text": "I think sarcastic"}
+{"key": "365663bfe5eca62612d16daafb7da317b46693f13132147e3cab31d12412e2d5", "item_id": "sar04", "model": "model-A", "sample_idx": 2, "raw_text": "NOT_SARCASTIC"}
+{"key": "cc74f2ce8743e2da06e063db919f66c8bdce3ba2df7b476f8aaf4d4ad49fa298", "item_id": "sar04", "model": "model-A", "sample_idx": 3, "raw_text": "not_sarcastic"}
+{"key": "264aa3b5d0eaf35959900a44662a97147381627bd76079528963f9e9c7fc5002", "item_id": "sar04", "model": "model-A", "sample_idx": 4, "raw_text": "sarcastic."}
+{"key": "7c055c90688f1a7e83bde417afd46c8961ab54909ed805d9d78f288e091eb2d8", "item_id": "sar04", "model": "model-B", "sample_idx": 0, "raw_text": "sarcastic."}
+{"key": "a5dc008b9ed82e085a81a9e9fa2ab09f23d1471b4f587f0219283c4d71cb59e5", "item_id": "sar04", "model": "model-B", "sample_idx": 1, "raw_text": "not_sarcastic"}
+{"key": "a872adbd9dd9bce13c6d05019b2a0911bc86828d486aa1f6ed7687d40851ec79", "item_id": "sar04", "model": "model-B", "sample_idx": 2, "raw_text": "sarcastic."}
+{"key": "6ffcabe72098e726edfdb34cec1531db913d3d58bc3bfd56a667f972d4b49170", "item_id": "sar04", "model": "model-B", "sample_idx": 3, "raw_text": "I think sarcastic"}
+{"key": "22ecb703ba0e4ebb520ea5944847deb7a070468acb43eb15677091035d6147db", "item_id": "sar04", "model": "model-B", "sample_idx": 4, "raw_text": "NOT_SARCASTIC"}
+{"key": "ff0ca2755812e77d5ad8337e0dbb116fabe0da33dae2a28c6b0beed395764bc8", "item_id": "sar04", "model": "model-C", "sample_idx": 0, "raw_text": "The answer is not_sarcastic"}
+{"key": "32c65d47631c51d6604997d41b05b024d718745e5207ec10cdd204cab981c053", "item_id": "sar04", "model": "model-C", "sample_idx": 1, "raw_text": "I think sarcastic"}
+{"key": "1eae6b6cc94383509f2b3ec8c62e3652039f2ccae06ec170c20b6630230c0597", "item_id": "sar04", "model": "model-C", "sample_idx": 2, "raw_text": "not_sarcastic"}
+{"key": "4bebef6ebaa206a7abaa9b4689f4c564a4092641fc93f4586399c813a17f8d18", "item_id": "sar04", "model": "model-C", "sample_idx": 3, "raw_text": "not_sarcastic"}
+{"key": "2a819d1e9d7723ba3d81d1e2605d76496369019f9de717b2bbeaee2253e059a4", "item_id": "sar04", "model": "model-C", "sample_idx": 4, "raw_text": "I think not_sarcastic"}
+{"key": "715079966094665a60f98c444a413d05f9a5858592a5d90d2ae9fc7ca9d7f439", "item_id": "sar05", "model": "model-A", "sample_idx": 0, "raw_text": "The answer is sarcastic"}
+{"key": "c92a03c4515329a8f5e745c289692348bf51246a3dc405fe21905783b60dd279", "item_id": "sar05", "model": "model-A", "sample_idx": 1, "raw_text": "sarcastic"}
+{"key": "ae3a8fcb8ad3ec1a887769caf7f4943e6a3db2afe84c2df806908d727f95978c", "item_id": "sar05", "model": "model-A", "sample_idx": 2, "raw_text": "I think sarcastic"}
+{"key": "d67c16a25c0f75ddff9b2abe2aa030f2c14c524bb3d91a8524e59b4d6c4ba3f9", "item_id": "sar05", "model": "model-A", "sample_idx": 3, "raw_text": "SARCASTIC"}
+{"key": "af5d3c31d465de33d7b24bc9b63be0ccaa25343a87609d658c27117e1aa2fed2", "item_id": "sar05", "model": "model-A", "sample_idx": 4, "raw_text": "I think sarcastic"}
+{"key": "01d56c92a6bfcadc54d81e01b89047b7266fdf9c7f4b807bca3dc9873b938c21", "item_id": "sar05", "model": "model-B", "sample_idx": 0, "raw_text": "The answer is not_sarcastic"}
+{"key": "e1eeb4f803982633097388d2f83ea60e3ddb2249cba85b496a4205e82316eca2", "item_id": "sar05", "model": "model-B", "sample_idx": 1, "raw_text": "I think sarcastic"}
+{"key": "432c89aefcb9f0e81643203bef2bb903e518070efc7e6a13ffa563d7f349cc85", "item_id": "sar05", "model": "model-B", "sample_idx": 2, "raw_text": "SARCASTIC"}
+{"key": "d72130cccb63d8c02fd7c6857ad71df8bb7f5821ed1389c326a2b040123c2df1", "item_id": "sar05", "model": "model-B", "sample_idx": 3, "raw_text": "I think sarcastic"}
+{"key": "9242b0acc050f1a96ba245e5d744410608592f9e0b68dccc7e7b494b071e695c", "item_id": "sar05", "model": "model-B", "sample_idx": 4, "raw_text": "SARCASTIC"}
+{"key": "803a37c96fd23e392e980e60812f4bdf4e461cc5b9d35f6db8db4258ceca197b", "item_id": "sar05", "model": "model-C", "sample_idx": 0, "raw_text": "I think sarcastic"}
+{"key": "7e927128b870bd6ed2ee304d53668b699893625ceccea5fdacb1625a15f03656", "item_id": "sar05", "model": "model-C", "sample_idx": 1, "raw_text": "SARCASTIC"}
+{"key": "5925b06fe5adcad52bbd1ad95b45128d6c9e3932a19d234841da7fdef627367f", "item_id": "sar05", "model": "model-C", "sample_idx": 2, "raw_text": "not_sarcastic"}
+{"key": "64099b0d4a0fca860b0284af4019f2110917ee22ecfd41ec69335d86296077e9", "item_id": "sar05", "model": "model-C", "sample_idx": 3, "raw_text": "sarcastic."}
+{"key": "1671f0473a3789285b58548339c0fbf18cae6a94d59bd721c51752ecea70d61e", "item_id": "sar05", "model": "model-C", "sample_idx": 4, "raw_text": "SARCASTIC"}
+{"key": "973617b64501821cd240a927cc1dde96907db2c492da0ccdb5cca6bcfcdf8530", "item_id": "sar06", "model": "model-A", "sample_idx": 0, "raw_text": "NOT_SARCASTIC"}
+{"key": "c8cb09cd5531ed7ef20418c557050e1ab08d736af882f9d4258f56ac003c0725", "item_id": "sar06", "model": "model-A", "sample_idx": 1, "raw_text": "The answer is sarcastic"}
+{"key": "7fcb30b768341c7884fed3b52143106944f5415232eee276f7e71a2167777198", "item_id": "sar06", "model": "model-A", "sample_idx": 2, "raw_text": "not_sarcastic"}
+{"key": "6858b63cecb7213b8913c66cb312dde404ac3decab00808c2e99c55dfed192d9", "item_id": "sar06", "model": "model-A", "sample_idx": 3, "raw_text": "The answer is not_sarcastic"}
+{"key": "2c9a00b4c1000e99f75f89d104b3986b4ba39f9be531fffc165c3d20992b8097", "item_id": "sar06", "model": "model-A", "sample_idx": 4, "raw_text": "The answer is not_sarcastic"}
+{"key": "b88041f60d031c8d28fe8fbbc742734b25c1151d16932e963bb6839c0e68230e", "item_id": "sar06", "model": "model-B", "sample_idx": 0, "raw_text": "NOT_SARCASTIC"}
+{"key": "70abe0f9700b92e8af2180029cccb2720ca62cb35eca1c6d89ee1c7b4d5578b6", "item_id": "sar06", "model": "model-B", "sample_idx": 1, "raw_text": "I think not_sarcastic"}
+{"key": "5b8c48476de721ad7d8da7bd2d445674344214907fb7500e82e98cd966c4d702", "item_id": "sar06", "model": "model-B", "sample_idx": 2, "raw_text": "not_sarcastic."}
+{"key": "82d94da3d0dd2f5a8992213cbd4c1f15993321fb6e87ac7043e620a3081681df", "item_id": "sar06", "model": "model-B", "sample_idx": 3, "raw_text": "SARCASTIC"}
+{"key": "f499ee22bd9d348810b3df806209dc1904533211f8c33ddeb4f4b31f7b2bfe8e", "item_id": "sar06", "model": "model-B", "sample_idx": 4, "raw_text": "The answer is sarcastic"}
+{"key": "6d3aedc4c1c3d3851b47b0c1a74e41f6d171b57ab10378aaf82a3fc9b7c002e0", "item_id": "sar06", "model": "model-C", "sample_idx": 0, "raw_text": "The answer is not_sarcastic"}
+{"key": "73937f557c9f6bcd2415e49a02261698fc4915f65fbcd60433134358b8486912", "item_id": "sar06", "model": "model-C", "sample_idx": 1, "raw_text": "The answer is sarcastic"}
+{"key": "7b89f885ac7f5bb6e44acaded01988aa91173ab36d8e894edf85a4db0d0c24e4", "item_id": "sar06", "model": "model-C", "sample_idx": 2, "raw_text": "I think not_sarcastic"}
+{"key": "f26ff5f942e876021073cca3b0cf791835528ed11ed110bf7a6d415a23fe5f82", "item_id": "sar06", "model": "model-C", "sample_idx": 3, "raw_text": "NOT_SARCASTIC"}
+{"key": "5e2441488c1a7845032efdaad4f95c28dde1241acedd4bce9a17516a70e07038", "item_id": "sar06", "model": "model-C", "sample_idx": 4, "raw_text": "sarcastic."}
+{"key": "758c7a3555a66bc960ee54d94bdab9d207eae05fcbc4b05ef91ff87bf3e1d7a5", "item_id": "qa01", "model": "model-A", "sample_idx": 0, "raw_text": "Canberra."}
+{"key": "1f3d2d71c40e072aeea614e226133fdbba91d2c99294a3df3b64d120e888765f", "item_id": "qa01", "model": "model-A", "sample_idx": 1, "raw_text": "The answer is Canberra"}
+{"key": "60fac6eaa5ea95d7c82053f8bb89f4a39f5c2748cc7dfced11030c070742b233", "item_id": "qa01", "model": "model-A", "sample_idx": 2, "raw_text": "The answer is Canberra"}
+{"key": "9ebc7b61021bcdc281e850e65e966b3bc8551311b42e4ea74c404b7d4bd90e18", "item_id": "qa01", "model": "model-A", "sample_idx": 3, "raw_text": "CANBERRA"}
+{"key": "7c4d8a632e10d5b756f82eb0a83f4774e4f60d49ae0bc68add21947b0fc4e3da", "item_id": "qa01", "model": "model-A", "sample_idx": 4, "raw_text": "CANBERRA"}
+{"key": "9dda05f482cc69042361cadea0a05e44389cd6bca75f8063f3a750a2b9c8477f", "item_id": "qa01", "model": "model-B", "sample_idx": 0, "raw_text": "Canberra"}
+{"key": "1279bdf1f1540ebb4df7b447e0182f253378833b9111e2951e44642182548f61", "item_id": "qa01", "model": "model-B", "sample_idx": 1, "raw_text": "Canberra"}
+{"key": "aca98f006b50eada22fe45c4de5da321ebb8b77400b88613b43633018a7b8b82", "item_id": "qa01", "model": "model-B", "sample_idx": 2, "raw_text": "Canberra"}
+{"key": "17b7651691d4a9cdcf233b2a4e91c23fb99eba7f80bd64138f3075ac46fcb657", "item_id": "qa01", "model": "model-B", "sample_idx": 3, "raw_text": "The answer is Canberra"}
+{"key": "cad31b7aef942d18802f85d45d09dfb4f5eef64540fa6caab50c0e77517a3c7a", "item_id": "qa01", "model": "model-B", "sample_idx": 4, "raw_text": "The answer is Canberra"}
+{"key": "f6dc2484cb78a4400acb845f0edf6188e477b2c0f1d7c8a8a8aea690ea1ae170", "item_id": "qa01", "model": "model-C", "sample_idx": 0, "raw_text": "I think Canberra"}
+{"key": "250ea704d844c68edab77c13950efc4a1b901f01cb00c566ecf4d3243fb211d9", "item_id": "qa01", "model": "model-C", "sample_idx": 1, "raw_text": "Canberra"}
+{"key": "c360de4052d7466cb75c67dfc2d6e0dfb5f8f4994be51c0adf99e28a8dbd1a34", "item_id": "qa01", "model": "model-C", "sample_idx": 2, "raw_text": "Canberra"}
+{"key": "f97ec63f9835da2f8ffb8839d90776390ebfd648b67af94d43c1767a27781ffa", "item_id": "qa01", "model": "model-C", "sample_idx": 3, "raw_text": "Canberra."}
+{"key": "5484bd9220690abab6feb11a23317a64f8bbba90654ac6fa131e23b47098bbb5", "item_id": "qa01", "model": "model-C", "sample_idx": 4, "raw_text": "Canberra."}
+{"key": "852631971204957c85f6ee75cbc1ffb39a5bd53e894e10c7ad1bc84007d3ca44", "item_id": "qa02", "model": "model-A", "sample_idx": 0, "raw_text": "The answer is carbon dioxide"}
+{"key": "20dd444a91e9d8b42c9dc40d368187f2526d80da4b7bcd33214c22db9108442a", "item_id": "qa02", "model": "model-A", "sample_idx": 1, "raw_text": "I think carbon dioxide"}
+{"key": "1fe7aab945b18f29bbd2c6149221cb8227e78ff15bd9c0a740e245f90f72451b", "item_id": "qa02", "model": "model-A", "sample_idx": 2, "raw_text": "WILLIAM SHAKESPEARE"}
+{"key": "fb88d4ec58571649bc5f68b750a801d20dcb2c4338f93d30f3359742657dc1d3", "item_id": "qa02", "model": "model-A", "sample_idx": 3, "raw_text": "dioxide"}
+{"key": "ba268f28ba3e02de6aef898e47bbf4835c978799b572cb316ac2ed406a4bd314", "item_id": "qa02", "model": "model-A", "sample_idx": 4, "raw_text": "dioxide."}
+{"key": "a04f2203d2ce9abcfe8875274e8cc5fc4350d91eb3635fbda9e7c30479c2162a", "item_id": "qa02", "model": "model-B", "sample_idx": 0, "raw_text": "CARBON DIOXIDE"}
+{"key": "1911b13c809055e610f3641de8c556abdf8e154eb7f7a618b1742c3671aa2799", "item_id": "qa02", "model": "model-B", "sample_idx": 1, "raw_text": "I think Canberra"}
+{"key": "eaf4b1b67fc694eb4d5cf5dd856af93a18f974901013f183fa1babb67989a824", "item_id": "qa02", "model": "model-B", "sample_idx": 2, "raw_text": "carbon dioxide"}
+{"key": "237aa5c237ae3d25d061c48d112131ebc3165a9589ece291fe7216817d176721", "item_id": "qa02", "model": "model-B", "sample_idx": 3, "raw_text": "dioxide"}
+{"key": "661d19eefed998ef43c349816df3eb96223b4631fb025cf7ea2186beac90964b", "item_id": "qa02", "model": "model-B", "sample_idx": 4, "raw_text": "I think dioxide"}
+{"key": "9fbb33d3dc59b7da6542764ced782806f925680ff6a994eefafe16f2233c4453", "item_id": "qa02", "model": "model-C", "sample_idx": 0, "raw_text": "Canberra"}
+{"key": "e06f6cfa2fb4da6adef0c83888179aae54b2a87fbc292323cd3a3f44e6fb9156", "item_id": "qa02", "model": "model-C", "sample_idx": 1, "raw_text": "The answer is William Shakespeare"}
+{"key": "8e35e930cbeaef3786a433738b776b7f49ccc7acb25d6b2fbc80d71b970c5ed3", "item_id": "qa02", "model": "model-C", "sample_idx": 2, "raw_text": "dioxide"}
+{"key": "148438e99c8defa88e6cc9f4a4008c1736e9cfb326b9577bc2e40437ee07a055", "item_id": "qa02", "model": "model-C", "sample_idx": 3, "raw_text": "dioxide"}
+{"key": "18054d7c4f8ea896cb988fc937f9d1114f2ea4a27e08acea176b9eecb8411edd", "item_id": "qa02", "model": "model-C", "sample_idx": 4, "raw_text": "dioxide"}
+{"key": "2bf1aaa2357e0ccbb8c5fa00a80e54855bdef894824422a196ccf553be7476fa", "item_id": "qa03", "model": "model-A", "sample_idx": 0, "raw_text": "William Shakespeare"}
+{"key": "e56d1be125a1e34019c29dbee1bb1104a7f4837fff8a0a823526ee801d5fb2b3", "item_id": "qa03", "model": "model-A", "sample_idx": 1, "raw_text": "I think William Shakespeare"}
+{"key": "3998e3dac146325c4a6022c2dea13671b1c5b2b26711d3e34f87a590a1e00d12", "item_id": "qa03", "model": "model-A", "sample_idx": 2, "raw_text": "The answer is Shakespeare"}
+{"key": "2525c24ae154fe40d27e1f963d7a75bea682e29478f9efcad37419b4ddea2209", "item_id": "qa03", "model": "model-A", "sample_idx": 3, "raw_text": "PACIFIC OCEAN"}
+{"key": "fc354391d2287c5357fdb727ca3ca36ab2d8d826b56c72e475cc99d03347eec0", "item_id": "qa03", "model": "model-A", "sample_idx": 4, "raw_text": "Shakespeare."}
+{"key": "6fb14c548d22c79e7b0139816db49b6cca287c7add954152e2185adfc3753d4c", "item_id": "qa03", "model": "model-B", "sample_idx": 0, "raw_text": "Shakespeare"}
+{"key": "a38d39bc45d73727de0e16f59a3ea72fc601c777866d910c052b21d21de87cb4", "item_id": "qa03", "model": "model-B", "sample_idx": 1, "raw_text": "Shakespeare"}
+{"key": "1d4a638e612840b886ba80fa04c6e6b565bd3e3571abec30d4b030758ef15b2e", "item_id": "qa03", "model": "model-B", "sample_idx": 2, "raw_text": "WILLIAM SHAKESPEARE"}
+{"key": "c05c8a33f8a955746b158afe46ff8628575c98a5581b89f13ef31effd3665e6b", "item_id": "qa03", "model": "model-B", "sample_idx": 3, "raw_text": "WILLIAM SHAKESPEARE"}
+{"key": "f8e645d561d02e59a9f261304d672cb68a11540b51db8ba7aa6bf50279d2025d", "item_id": "qa03", "model": "model-B", "sample_idx": 4, "raw_text": "WILLIAM SHAKESPEARE"}
+{"key": "0fda71c6224c9805d403a6439ed06545d5270d6f58613d9bfb5f07dc2b588c8e", "item_id": "qa03", "model": "model-C", "sample_idx": 0, "raw_text": "AU"}
+{"key": "87149673cd403e5ba04aa26647ade61aba4205301f5882675d4b571fa97f2f1e", "item_id": "qa03", "model": "model-C", "sample_idx": 1, "raw_text": "SHAKESPEARE"}
+{"key": "4511214e88ccbc482161ec37665deac045584385027f266d2e5ee31ec867aaf7", "item_id": "qa03", "model": "model-C", "sample_idx": 2, "raw_text": "The answer is Shakespeare"}
+{"key": "fe9e9a641bfb68589e141dbdee3c7e30d3d1f699409a53641daf7da4b8cd0d81", "item_id": "qa03", "model": "model-C", "sample_idx": 3, "raw_text": "I think William Shakespeare"}
+{"key": "66bab5ab686c2f0e3cf3c071f30deb070e12dcfc0ab697140230e875ce67f32d", "item_id": "qa03", "model": "model-C", "sample_idx": 4, "raw_text": "The answer is William Shakespeare"}
+{"key": "16db128a889ff320052719fe53cc2ec993d148d2f75608e79a2f9b0a284bfae9", "item_id": "qa04", "model": "model-A", "sample_idx": 0, "raw_text": "I think Pacific Ocean"}
+{"key": "a1dcca4d91b758f3f6acb23cea69c1d69710499904ee5f8a7b04dd3b398b1272", "item_id": "qa04", "model": "model-A", "sample_idx": 1, "raw_text": "Pacific Ocean"}
+{"key": "c03b3f0ff96bf6a9efe0037845fe083fe414641e4dc43df0c3fcb6c9cb75eb1c", "item_id": "qa04", "model": "model-A", "sample_idx": 2, "raw_text": "I think Pacific Ocean"}
+{"key": "1e92e5afc7c8d46610a889f7e0c2690c40bfc2e27dcac08b573fd9b85f6f9879", "item_id": "qa04", "model": "model-A", "sample_idx": 3, "raw_text": "The answer is Pacific Ocean"}
+{"key": "ca651892f8112b8ce09c0799e4293e9c518147b980b405f08c2a63e29d198af0", "item_id": "qa04", "model": "model-A", "sample_idx": 4, "raw_text": "Canberra."}
+{"key": "43069a2cbf356080c09c42a109cc6af36c0ca360abd41bf59a15e01b9e57d0f9", "item_id": "qa04", "model": "model-B", "sample_idx": 0, "raw_text": "PACIFIC OCEAN"}
+{"key": "b55932996328a3c7e4579d156a65af09621a2ca96a1da28ffa00c123534a7cea", "item_id": "qa04", "model": "model-B", "sample_idx": 1, "raw_text": "The answer is Pacific Ocean"}
+{"key": "8f7f8b45d5ace856e84945dcbb1a5ed8f7045568316a492819d17253d093c9ec", "item_id": "qa04", "model": "model-B", "sample_idx": 2, "raw_text": "I think Pacific Ocean"}
+{"key": "a5e0750dcbf3ae6d5dd7d6bc9665305a0a0e8fa76bc7db00b0648c9767ef8cda", "item_id": "qa04", "model": "model-B", "sample_idx": 3, "raw_text": "Pacific Ocean."}
+{"key": "76eae803adce1b92cbf46bd9b31c682248c6a36e467336fa9131e7234d1e36b4", "item_id": "qa04", "model": "model-B", "sample_idx": 4, "raw_text": "carbon dioxide."}
+{"key": "0878dd1acf079eaaa6844e3c2436ba49a8a75aa804598e244a81b779ae66ffae", "item_id": "qa04", "model": "model-C", "sample_idx": 0, "raw_text": "I think Pacific Ocean"}
+{"key": "346c8c89e705f565e0ed36414c48afa702eab4b0e218a1c1659673f381e2c150", "item_id": "qa04", "model": "model-C", "sample_idx": 1, "raw_text": "PACIFIC OCEAN"}
+{"key": "8f10b9d3760345e9c2c19f96bc7d1b2dc9794081e27acc989e6fe98630b2c4dd", "item_id": "qa04", "model": "model-C", "sample_idx": 2, "raw_text": "Pacific Ocean"}
+{"key": "537c30aa6ad737e38f8ca5215cd7a261a3543b44ad195ed8213c7291cdb2ba8b", "item_id": "qa04", "model": "model-C", "sample_idx": 3, "raw_text": "Pacific Ocean"}
+{"key": "c9314fdaf8cb0c1cbace0b0a8910f2c998f57b78db6e368bdbfe2e9312153bf2", "item_id": "qa04", "model": "model-C", "sample_idx": 4, "raw_text": "Pacific Ocean."}
+{"key": "ca75c17d411cb4616dc0715d2c92021a78468511207e6e53b9e3552619b27c24", "item_id": "qa05", "model": "model-A", "sample_idx": 0, "raw_text": "The answer is 6"}
+{"key": "197bcea7cd0a21e009f0a6a385024de44604eca931eb288f0622a8ced7a4c773", "item_id": "qa05", "model": "model-A", "sample_idx": 1, "raw_text": "I think Pacific Ocean"}
+{"key": "9279f585403688f74f7750507bf24ead15be15f69e1ac0a31cb734fc4999afaf", "item_id": "qa05", "model": "model-A", "sample_idx": 2, "raw_text": "6"}
+{"key": "d2391083ab3ab45d5d58e94b2911bd6f4b2aba4ff9f8c4757c72eca32116c0a7", "item_id": "qa05", "model": "model-A", "sample_idx": 3, "raw_text": "6"}
+{"key": "f88138e2ef67169c8d9bca2ed42ea857fde937b9c417f26a872e544273ef0ac2", "item_id": "qa05", "model": "model-A", "sample_idx": 4, "raw_text": "I think 6"}
+{"key": "74c53172076679d22f3f5d438370d24da59a0c519ee0bbd6c00e1cdf74e9039c", "item_id": "qa05", "model": "model-B", "sample_idx": 0, "raw_text": "Au"}
+{"key": "abe8154dc789f8cc18d0fc86cdd8b3d9007f0817ea0973e61d89efd60b8ecf81", "item_id": "qa05", "model": "model-B", "sample_idx": 1, "raw_text": "The answer is 6"}
+{"key": "f4a90e43e73e1ea6b93ef4bd8b8eafef10a6828cb1c265bf3e2f553ff1e2e657", "item_id": "qa05", "model": "model-B", "sample_idx": 2, "raw_text": "6"}
+{"key": "961ed2f3671acb3540a2e5e024d36258db3111b2c00bd21fbd614475207284a0", "item_id": "qa05", "model": "model-B", "sample_idx": 3, "raw_text": "Au."}
+{"key": "c90c81c2e6961ce50742268b5d9b33876623fa215ba3339ec1502dbb00889a24", "item_id": "qa05", "model": "model-B", "sample_idx": 4, "raw_text": "6"}
+{"key": "4e39b6846ff7ee46d519207799cf0bcbb3e60dd361d0eadde6ac6c48803ffb2a", "item_id": "qa05", "model": "model-C", "sample_idx": 0, "raw_text": "6"}
+{"key": "a5b932e2335aaaad40455b18fb503a67b976d86a5bf0079fad282ad37045bdb1", "item_id": "qa05", "model": "model-C", "sample_idx": 1, "raw_text": "I think 6"}
+{"key": "83b2546880c8a6420c40b88166703c0b3a23a94350f9512771aa652f1ec7e1f2", "item_id": "qa05", "model": "model-C", "sample_idx": 2, "raw_text": "I think carbon dioxide"}
+{"key": "b1153dba368c822cd27e9f9edc7de37a6ffc1e85e74425e75b842584c6e5fd67", "item_id": "qa05", "model": "model-C", "sample_idx": 3, "raw_text": "I think 6"}
+{"key": "77f8eecd8c00ef8afac8b6c8639c4042169092541e2cb9f581fc620ac493baec", "item_id": "qa05", "model": "model-C", "sample_idx": 4, "raw_text": "6"}
+{"key": "df468bfd65bee0d541f06455aceb8830c46e81cc80e162cfe6ae3e7a94af972a", "item_id": "qa06", "model": "model-A", "sample_idx": 0, "raw_text": "AU"}
+{"key": "95132fbd61fedae4f582a55f945438e138a6745b3fe61469f49f82deb7dd7c86", "item_id": "qa06", "model": "model-A", "sample_idx": 1, "raw_text": "Au"}
+{"key": "8ed808ea47fb4f8f853c3ab535e65a8e47868efabda52f3a8d28ed812234f050", "item_id": "qa06", "model": "model-A", "sample_idx": 2, "raw_text": "Au"}
+{"key": "cc69f1bd0dacfddd36e06e559d0f47bf1dab60ca6d084e2aa79db766178bbbc9", "item_id": "qa06", "model": "model-A", "sample_idx": 3, "raw_text": "I think Au"}
+{"key": "70d173c37ba8b0a18d746e6307593c0e83cfdc61033c3d53b0b3a358fdd8a079", "item_id": "qa06", "model": "model-A", "sample_idx": 4, "raw_text": "I think Au"}
+{"key": "09979d72db480b3444e3776fe5a3c7b985cbad3ff49531f061c6b3e7b169c641", "item_id": "qa06", "model": "model-B", "sample_idx": 0, "raw_text": "AU"}
+{"key": "284df945e2f4e25be383cf5a7a17649b615468620871dbc2e7a6ee36cacaec0f", "item_id": "qa06", "model": "model-B", "sample_idx": 1, "raw_text": "AU"}
+{"key": "55c6217db85b545a31377766bee7055af36e4eab1bb57069a5ee1c0e11bf1f15", "item_id": "qa06", "model": "model-B", "sample_idx": 2, "raw_text": "AU"}
+{"key": "28d443234bd5f4acf076e10d6f1995663d3fa6f3697d55be4c9b22bdcb85c9b2", "item_id": "qa06", "model": "model-B", "sample_idx": 3, "raw_text": "The answer is 6"}
+{"key": "024acd56873ae15cc4c0c943efe583eb119438fe4951873d4164098f62ccfb55", "item_id": "qa06", "model": "model-B", "sample_idx": 4, "raw_text": "I think Au"}
+{"key": "b1b721d782a0ae8b7b85ceee2ea9a067cf8d4b63c2edee0526df8ca4dde8a3cf", "item_id": "qa06", "model": "model-C", "sample_idx": 0, "raw_text": "AU"}
+{"key": "9a7cf7867a023c1e12a661f916c9136f3c7e239902071cbfd7c4c16160da5382", "item_id": "qa06", "model": "model-C", "sample_idx": 1, "raw_text": "Au"}
+{"key": "abd8222d0e15f2739b6b7f6cd00fd107fe6ff5e33f54632a66f8f26df2eacfe0", "item_id": "qa06", "model": "model-C", "sample_idx": 2, "raw_text": "AU"}
+{"key": "598f17fb095e9771c2652ec842db05458f83d51522fc8b9802e8e75cc9e588f5", "item_id": "qa06", "model": "model-C", "sample_idx": 3, "raw_text": "I think Au"}
+{"key": "d7f0d9ce898937540361dda9693759cf235030bb78219d0b6bfc89b646c2806d", "item_id": "qa06", "model": "model-C", "sample_idx": 4, "raw_text": "The answer is Au"}

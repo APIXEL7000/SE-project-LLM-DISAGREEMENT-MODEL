@@ -1,0 +1,27 @@
+item_id,task_type,n_responses,n_valid,invalid_rate,majority_answer,agreement,n_distinct_answers,n_clusters,entropy_bits,entropy_norm,disagreement,flag_reason,model_majorities,mean_model_self_agreement,cross_model_disagree,pairwise_model_agreement,human_majority,human_agreement,human_entropy_norm,js_divergence,total_variation,majority_match,overconfident
+nli01,classification,15,15,0.0,entailment,1.0,1,1,0.0,0.0,False,,model-A=entailment; model-B=entailment; model-C=entailment,1.0,False,1.0,entailment,1.0,0.0,0.0,0.0,True,False
+nli02,classification,15,15,0.0,neutral,0.9333,2,2,0.3534,0.2229,False,,model-A=neutral; model-B=neutral; model-C=neutral,0.9333,False,1.0,neutral,0.8,0.4555,0.0289,0.1333,True,False
+nli03,classification,15,15,0.0,contradiction,0.9333,2,2,0.3534,0.2229,False,,model-A=contradiction; model-B=contradiction; model-C=contradiction,0.9333,False,1.0,contradiction,0.9,0.2959,0.0026,0.0333,True,False
+nli04,classification,15,15,0.0,entailment,0.8,2,2,0.7219,0.4555,False,,model-A=entailment; model-B=entailment; model-C=entailment,0.8,False,1.0,entailment,0.6,0.6126,0.0349,0.2,True,False
+nli05,classification,15,15,0.0,neutral,0.5333,2,2,0.9968,0.6289,True,low_agreement,model-A=neutral; model-B=entailment; model-C=entailment,0.6667,True,0.3333,neutral,0.6,0.6126,0.0033,0.0667,True,False
+nli06,classification,15,15,0.0,contradiction,0.5333,2,2,0.9968,0.6289,True,low_agreement,model-A=contradiction; model-B=contradiction; model-C=neutral,0.6,True,0.3333,contradiction,0.5,0.8587,0.0522,0.1,True,False
+nli07,classification,15,15,0.0,neutral,0.6667,2,2,0.9183,0.5794,True,low_agreement,model-A=neutral; model-B=neutral; model-C=neutral,0.6667,False,1.0,neutral,0.5,0.8587,0.0608,0.1667,True,False
+nli08,classification,15,15,0.0,contradiction,0.9333,2,2,0.3534,0.2229,False,,model-A=contradiction; model-B=contradiction; model-C=contradiction,0.9333,False,1.0,contradiction,0.7,0.556,0.07,0.2333,True,False
+nli09,classification,15,15,0.0,neutral,0.7333,2,2,0.8366,0.5279,True,low_agreement,model-A=neutral; model-B=neutral; model-C=neutral,0.7333,False,1.0,neutral,0.7,0.556,0.001,0.0333,True,False
+nli10,classification,15,15,0.0,entailment,1.0,1,1,0.0,0.0,False,,model-A=entailment; model-B=entailment; model-C=entailment,1.0,False,1.0,entailment,1.0,0.0,0.0,0.0,True,False
+nli11,classification,15,15,0.0,neutral,0.8667,3,3,0.6998,0.4416,False,,model-A=neutral; model-B=neutral; model-C=neutral,0.8667,False,1.0,neutral,0.6,0.8173,0.0779,0.2667,True,False
+nli12,classification,15,15,0.0,contradiction,1.0,1,1,0.0,0.0,False,,model-A=contradiction; model-B=contradiction; model-C=contradiction,1.0,False,1.0,contradiction,1.0,0.0,0.0,0.0,True,False
+nli13,classification,15,15,0.0,neutral,0.6667,2,2,0.9183,0.5794,True,low_agreement,model-A=neutral; model-B=neutral; model-C=neutral,0.6667,False,1.0,neutral,0.6,0.6126,0.0035,0.0667,True,False
+nli14,classification,15,15,0.0,neutral,0.6667,3,3,1.1589,0.7312,True,low_agreement,model-A=neutral; model-B=neutral; model-C=neutral,0.6667,False,1.0,neutral,0.6,0.6126,0.0443,0.1333,True,False
+sar01,classification,15,15,0.0,sarcastic,1.0,1,1,0.0,0.0,False,,model-A=sarcastic; model-B=sarcastic; model-C=sarcastic,1.0,False,1.0,sarcastic,0.9,0.469,0.0519,0.1,True,False
+sar02,classification,15,15,0.0,not_sarcastic,0.9333,2,2,0.3534,0.3534,False,,model-A=not_sarcastic; model-B=not_sarcastic; model-C=not_sarcastic,0.9333,False,1.0,not_sarcastic,0.9,0.469,0.0026,0.0333,True,False
+sar03,classification,15,15,0.0,sarcastic,1.0,1,1,0.0,0.0,False,,model-A=sarcastic; model-B=sarcastic; model-C=sarcastic,1.0,False,1.0,sarcastic,1.0,0.0,0.0,0.0,True,False
+sar04,classification,15,15,0.0,not_sarcastic,0.5333,2,2,0.9968,0.9968,True,low_agreement,model-A=sarcastic; model-B=sarcastic; model-C=not_sarcastic,0.6667,True,0.3333,sarcastic,0.5,1.0,0.0008,0.0333,False,False
+sar05,classification,15,15,0.0,sarcastic,0.8667,2,2,0.5665,0.5665,False,,model-A=sarcastic; model-B=sarcastic; model-C=sarcastic,0.8667,False,1.0,sarcastic,0.8,0.7219,0.0058,0.0667,True,False
+sar06,classification,15,15,0.0,not_sarcastic,0.6667,2,2,0.9183,0.9183,True,low_agreement,model-A=not_sarcastic; model-B=not_sarcastic; model-C=not_sarcastic,0.6667,False,1.0,not_sarcastic,0.6,0.971,0.0035,0.0667,True,False
+qa01,open,15,15,0.0,canberra,1.0,1,1,0.0,0.0,False,,model-A=canberra; model-B=canberra; model-C=canberra,1.0,False,1.0,,,,,,,
+qa02,open,15,15,0.0,dioxide,0.7333,4,3,1.1033,0.2824,True,low_agreement,model-A=carbon dioxide; model-B=carbon dioxide; model-C=dioxide,0.7333,False,1.0,,,,,,,
+qa03,open,15,15,0.0,william shakespeare,0.8667,4,3,0.6998,0.1791,False,,model-A=shakespeare; model-B=william shakespeare; model-C=shakespeare,0.8667,False,1.0,,,,,,,
+qa04,open,15,15,0.0,pacific ocean,0.8667,3,3,0.6998,0.1791,False,,model-A=pacific ocean; model-B=pacific ocean; model-C=pacific ocean,0.8667,False,1.0,,,,,,,
+qa05,open,15,15,0.0,6,0.7333,4,4,1.2366,0.3165,True,low_agreement,model-A=6; model-B=6; model-C=6,0.7333,False,1.0,,,,,,,
+qa06,open,15,15,0.0,au,0.9333,2,2,0.3534,0.0904,False,,model-A=au; model-B=au; model-C=au,0.9333,False,1.0,,,,,,,
